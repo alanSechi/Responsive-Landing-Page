@@ -93,7 +93,7 @@ body {
     left: 191.95px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
     .content-div1 {
         position: relative;
         width: 360px;
@@ -168,11 +168,74 @@ body {
     background-image: url("images/leftSideDiv2.png");
 }
 
-@media screen and (max-width: 360px) {
+.right-side-title {
+    position: absolute;
+    width: 582px;
+    height: 22px;
+    left: 797px;
+    top: 130px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    /* Brand Colour */
+    color: #00ADEE;
+}
+
+.right-side-text-one {
+    position: absolute;
+    width: 426.91px;
+    height: 37px;
+    left: 797px;
+    top: 182px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    /* identical to box height */
+    /* #333333 */
+    color: #333333;
+}
+
+.right-side-text-two {
+    position: absolute;
+    width: 407px;
+    height: 185px;
+    left: 797px;
+    top: 246px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    /* #4F4F4F */
+    color: #4F4F4F;
+}
+
+.right-side-learn-more {
+    position: absolute;
+    width: 582px;
+    height: 22px;
+    left: 797px;
+    top: 453px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    /* Brand Colour */
+    color: #00ADEE;
+}
+
+@media screen and (max-width: 400px) {
     .content-div2 {
         position: relative;
         width: 360px;
-        height: 1216px;
+        height: 854px;
         background-color: #ffffff;
     }
     .content-div2-left-side-sfondo {
@@ -180,6 +243,68 @@ body {
     }
     .content-div2-left-side-sfondo-mobile {
         background-image: url("images/bottomLeftDiv2mobile.png");
+        position: relative;
+        top: 468px;
+    }
+    .right-side-title {
+        position: absolute;
+        width: 320px;
+        height: 22px;
+        left: 20px;
+        top: 54px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: center;
+        /* Brand Colour */
+        color: #00ADEE;
+    }
+    .right-side-text-one {
+        position: absolute;
+        width: 320px;
+        height: 74px;
+        left: 20px;
+        top: 103px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 37px;
+        text-align: center;
+        /* #333333 */
+        color: #333333;
+    }
+    .right-side-text-two {
+        position: absolute;
+        width: 320px;
+        height: 208px;
+        left: 20px;
+        top: 197px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+    }
+    .right-side-learn-more {
+        position: absolute;
+        width: 320px;
+        height: 22px;
+        left: 20px;
+        top: 424px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: center;
+        /* Brand Colour */
+        color: #00ADEE;
     }
 }
 
@@ -190,7 +315,7 @@ body {
     background-color: coral;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
     .content-div3 {
         position: relative;
         width: 360px;
@@ -206,7 +331,7 @@ body {
     background-color: blue;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
     .content-div4 {
         position: relative;
         width: 360px;
@@ -222,7 +347,7 @@ body {
     background-color: yellow;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
     .content-div5 {
         position: relative;
         width: 360px;
@@ -238,7 +363,7 @@ body {
     background-color: orange;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
     .content-div6 {
         position: relative;
         width: 360px;
@@ -254,7 +379,7 @@ body {
     background-color: orangered;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
     .content-div7 {
         position: relative;
         width: 360px;
@@ -270,7 +395,7 @@ body {
     background-color: violet;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
     .content-div8 {
         position: relative;
         width: 360px;
