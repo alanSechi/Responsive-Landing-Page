@@ -1,0 +1,141 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.content-div1{
+    position: relative;
+    width: 1440px;
+    height: 665px;
+    background-color: aqua;
+}
+
+@media screen and (max-width: 360px) {
+    .content-div1 {
+        position: relative;
+        width: 360px;
+        height: 525px;
+        background-color: violet;
+    }
+  }
+
+.content-div2{
+    position: relative;
+    width: 1440px;
+    height: 592px;
+    background-color: cadetblue;
+}
+
+@media screen and (max-width: 360px) {
+    .content-div2 {
+        position: relative;
+        width: 360px;
+        height: 1216px;
+        background-color: red;
+    }
+  }
+
+.content-div3{
+    position: relative;
+    width: 1440px;
+    height: 716px;
+    background-color: coral;
+}
+
+@media screen and (max-width: 360px) {
+    .content-div3 {
+        position: relative;
+        width: 360px;
+        height: 664px;
+        background-color: yellow;
+    }
+  }
+
+.content-div4{
+    position: relative;
+    width: 1440px;
+    height: 735px;
+    background-color: blue;
+}
+
+@media screen and (max-width: 360px) {
+    .content-div4 {
+        position: relative;
+        width: 360px;
+        height: 1775px;
+        background-color:green;
+    }
+  }
+
+.content-div5{
+    position: relative;
+    width: 1440px;
+    height: 431px;
+    background-color: yellow;
+}
+
+@media screen and (max-width: 360px) {
+    .content-div5 {
+        position: relative;
+        width: 360px;
+        height: 402px;
+        background-color: fuchsia;
+    }
+  }
+
+.content-div6{
+    position: relative;
+    width: 1440px;
+    height: 278px;
+    background-color: orange;
+}
+
+@media screen and (max-width: 360px) {
+    .content-div6 {
+        position: relative;
+        width: 360px;
+        height: 409px;
+        background-color: aquamarine;
+    }
+  }
+
+.content-div7{
+    position: relative;
+    width: 1440px;
+    height: 483px;
+    background-color: orangered;
+}
+
+@media screen and (max-width: 360px) {
+    .content-div7 {
+        position: relative;
+        width: 360px;
+        height: 690px;
+        background-color: brown;
+    }
+  }
+
+.content-div8{
+    position: relative;
+    width: 1440px;
+    height: 127px;
+    background-color: violet;
+}
+
+@media screen and (max-width: 360px) {
+    .content-div8 {
+        position: relative;
+        width: 360px;
+        height: 210px;
+        background-color: red;
+    }
+  }
