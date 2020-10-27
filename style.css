@@ -1,0 +1,2396 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+/* Inizio div topnav top*/
+
+    .topnav {
+        position: relative;
+        display: block;
+        width: 1440px;
+        height: 260px;
+    }
+
+    .topnav-top {
+        color: #333333;
+        background-color: #f5fafe;
+        height: 60px;
+        width: 1440px;
+    }
+
+    .topnav-top-questions {
+        position: absolute;
+        width: 243px;
+        height: 13px;
+        left: 165px;
+        top: 24px;
+        color: #333333;
+        font-family: Mulish;
+        font-style: normal;
+        font-size: 10px;
+        line-height: 13px;
+    }
+        
+    .topnav-top-questions a {
+        color: #333333;
+        text-decoration: none;
+    }
+
+    .topnav-top-btp {
+        position: absolute;
+        width: 102px;
+        height: 18px;
+        left: 957px;
+        top: 25px;
+    }
+
+    .topnav-top-loyalty {
+        position: absolute;
+        width: 115px;
+        height: 18px;
+        left: 1157px;
+        bottom: 20px;
+        top: 25px;
+    }
+    
+    .topnav-btp-icon, .topnav-loyalty-icon{
+        position: relative;
+        width: 18px;
+        height: 18px;
+    }
+
+    .topnav-btp-text, .topnav-loyalty-text{
+        position: relative;
+        width: 77px;
+        height: 13px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 13px;
+        left: 18px;
+        bottom: 3px;
+    }
+
+
+/* Style the topnav middle */
+    .topnav-middle {
+        position: absolute;
+        color: #333333;
+        background-color: #ffffff;
+        height: 120px;
+        width: 1440px;
+    }
+
+    .topnav-middle a {
+        text-decoration: none;
+        color: #333333;
+    }
+
+    .topnav-middle-btp {
+        position: relative;
+        width: 177px;
+        height: 24px;
+        left: 165px;
+        top: 51px;
+        font-family: Luckiest Guy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+    }
+   
+    /*Inizio div search*/
+
+        .topnav-middle-search {
+            position: relative;
+            width: 350px;
+            height: 40px;
+            left: 285px;
+            top: -33px;
+        }
+
+        .middle-form {
+            width: 350px;
+            height: 40px;
+        }
+
+        #topnav-middle-bar{
+           position: absolute;
+            width: 350px;
+            height: 40px;
+            left: 0px;
+            background: #F5FAFE;
+            border-radius: 6px;
+            border: none; 
+        }
+
+        label.middle-form {
+            position: absolute;
+            height: 15px;
+            left: 23px;
+            top: 12px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+            color: #333333;
+            z-index: 2;
+        }
+        
+        #topnav-middle-but {
+            position: absolute;
+            width: 66px;
+            height: 42px;
+            left: 286px;
+            background: #EC1F46;
+            border-radius: 0px 6px 6px 0px;
+            border: none;
+        }
+
+        #searchicon {
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            left: 25px;
+            top: 12px;
+        }
+
+    /*Fine div search*/
+
+    /*Inizio dic cart*/
+
+        .topnav-middle-cart {
+            position: relative;
+            width: 34px;
+            height: 34px;
+            left: 1038px;
+            top: 30px;
+        }
+
+        .middle-cart-icon {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+        }
+
+        .middle-cart-numbers {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: 15px; 
+            bottom: 24px;
+        }
+
+    /*fine div cart*/
+
+    /*inizio div account*/
+
+        .topnav-middle-account {
+            position: relative;
+            width: 150px;
+            height: 40px;
+            top: -15px;
+            left: 1122px;
+        }
+
+        .topnav-middle-photo {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+        }
+        
+        .topnav-middle-name {
+            position: absolute;
+            width: 49px;
+            height: 18px;
+            left: 58px;
+            top: 10px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+        }
+        
+        .topnav-middle-arrow {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 126px;
+        }
+        .arrow {
+            position: absolute;
+            left: 20.83%;
+            right: 20.83%;
+            top: 33.33%;
+            bottom: 33.33%;
+        }
+
+    /*fine div account*/    
+        
+/* inizio topnav bottom */
+  
+    .topnav-bottom {
+        color: #f2f2f2;
+        text-decoration: none;
+        position: relative;
+        height: 80px;
+        width: 1440px;
+        top: 120px;
+        background-color: #0A223D;
+    }
+
+    .topnav-bottom-div {
+        position: absolute;
+        height: 18px;
+        width: 1105px;
+        left: 165px;
+        top: 31px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px; 
+        color: #ffffff;
+    }
+
+    .topnav-bottom-uno {
+        position: absolute;
+    }
+
+    .topnav-bottom-due {
+        position: absolute;
+        left: 160px;
+    }
+
+    .topnav-bottom-tre {
+        position: absolute;
+        left: 298px;
+    }
+
+    .topnav-bottom-quat {
+        position: absolute;
+        left: 458px;
+    }
+
+    .topnav-bottom-cin {
+        position: absolute;
+        left: 700px;
+    }
+
+    .topnav-bottom-sei {
+        position: absolute;
+        left: 888px;
+    }
+
+    .topnav-bottom-sette {
+        position: absolute;
+        left: 1022px;
+    }
+  
+    .topnav-bottom a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+/*fine topnav bottom*/    
+
+/* Style the content */
+    
+    /*Start div coockieCrumble*/
+
+        .content {
+            background-color: #f5fafe;
+            display: block;
+            position: relative;
+            width: 1440px;
+            height: 4258px;
+        }
+        .content-coockieCrumble {
+            height: 50px;
+            background: #F5FAFE;
+        }
+        .content-coockieCrumble a {
+            text-decoration: none;
+            color: #333333;
+        }
+        .coockieCrumble-cake {
+            position: absolute;
+            width: 186px;
+            height: 13px;
+            left: 165px;
+            top: 18px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 13px;
+        }
+    /*End div coockieCrumble*/    
+    
+/*Inizio div hotelName*/
+        .content-hotelName {
+            position: relative;
+            height: 100px;
+        }
+
+    /*Inizio div stars*/
+        .hotelName-stars {
+            position: relative;
+            width: 48px;
+            height: 8px;
+            display: block;
+            top: 10px;
+            left: 165px;
+        }
+        .hotelName-stars-star {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+        }
+       
+        .hotelName-stars-star1, .hotelName-stars-star2, .hotelName-stars-star3, .hotelName-stars-star4  {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+        }
+
+        .hotelName-stars-interno {
+            position: absolute;
+            width: 8px;
+            height: 8px; 
+            left: 1px;
+        }
+
+        .hotelName-stars-interno1 {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            left: 11px;
+        }
+
+        .hotelName-stars-interno2 {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            left: 21px;
+        }
+
+        .hotelName-stars-interno3 {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            left: 31px;
+        }
+
+        .hotelName-stars-interno4 {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            left: 41px;
+        }
+
+        .hotelName-stars-esterno {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            top: 1px;  
+        }
+
+        .hotelName-stars-esterno1 {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            left: 10px;
+            top: 1px;
+        }
+          
+        .hotelName-stars-esterno2 {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            left: 20px;
+            top: 1px;
+        }
+         
+        .hotelName-stars-esterno3 {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            left: 30px;
+            top: 1px;
+        }
+        
+        .hotelName-stars-esterno4 {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            left: 40px;
+            top: 1px;
+        }
+        
+    /*fine div stars*/    
+
+    /*inizio div texts*/
+
+        .hotelName-texts {
+            position: relative;
+            height: 50px;
+            top: 23px;
+            display: block;
+        }
+        .texts-hotel {
+            position: absolute;
+            width: 268px;
+            height: 30px;
+            left: 165px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        .texts-crumble {
+            position: absolute;
+            width: 389px;
+            height: 15px;
+            left: 165px;
+            top: 27px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        .texts-offer {
+            position: absolute;
+            width: 70px;
+            height: 20px;
+            left: 447px;
+            top: 5px;
+            display: block;
+            background: #EC1F46;
+            border-radius: 3px;
+        }
+
+        .texts-flash {
+            position: absolute;
+            left: 8px;
+            top: 2px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 13px;
+            color: #FFFFFF;
+        }
+
+        .texts-rates {
+            position: absolute;
+            width: 65px;
+            height: 45px;
+            left: 1205px;
+            text-align: center;
+            background: #EC1F46;
+            border-radius: 4px;
+        }
+
+        .texts-ratings {
+
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 8px;
+            line-height: 10px;
+            color: #FFFFFF;
+        }
+
+        .texts-user {
+            position: relative;
+            top: -2px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+        }
+
+    /*fine div texts*/
+
+/*inizio div boxes*/
+
+    /*inizio div slider*/
+        .content-boxes {
+            height: 450px;
+        }
+
+        .content-boxes-slider {
+            position: relative;
+            width: 728px;
+            height: 450px;
+            left: 165px;
+        }
+
+        .slider-sfondo {
+            background-image: url("images/9.webp");
+        }
+
+        .slider-left {
+            position: absolute;
+            left: 26px;
+            top: 220px;
+            text-align: center;
+        }
+
+        .slider-right {
+            position: absolute;
+            left: 690px;
+            top: 220px;
+            text-align: center;
+        }
+
+    /*fine div slider*/
+
+    /*inizio div map*/
+
+        .content-boxes-map {
+            position: relative;
+            width: 348px;
+            height: 213px;
+            left: 924px;
+            top: -423px;
+        }
+
+        .map-rightButtons {
+            position: absolute;
+            width: 17px;
+            height: 44px;
+            left: 304px;
+            top: 27px;
+        }
+
+        .map-bottomButton {
+            position: absolute;
+            width: 145px;
+            height: 20px;
+            left: 95px;
+            top: 171px;
+        }
+
+    /*fine div map*/
+
+    /*inizio div bookings*/
+
+        .content-boxes-bookings {
+            position: relative;
+            width: 350px;
+            height: 210px;
+            left: 923px;
+            top: -450px;
+            font-family: Nunito;
+            background: #0A223D;
+            border-radius: 8px;
+            color: #FFFFFF;
+        }
+
+        .boxes-bookings-price {
+            position: absolute;
+            width: 86px;
+            height: 59px;
+            top: 29px;
+            left: 26px;
+
+        }
+
+        .bookings-price-priceStart {
+            font-style: normal;
+            font-weight: normal;
+            width: 66px;
+            height: 14px;
+            font-size: 10px;
+            line-height: 14px;
+        }
+
+        .bookings-price-number {
+            width: 86px;
+            height: 33px;
+            font-weight: 800;
+            font-size: 23.5px;
+            line-height: 33px
+        }
+
+        .bookings-price-perRoom {
+            width: 86px;
+            height: 16px;
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+        .boxes-bookings-BoxMap {
+            position: absolute;
+            width: 80px;
+            height: 40px;
+            left: 241px;
+            top: 33px;
+        }
+
+        .bookings-BoxMap-person {
+            width: 80px;
+            height: 16px;   
+        }
+
+        .person-GuestIcon {
+            width: 14px;
+            height: 14px;
+        }
+
+        .bookings-BoxMap-rooms {
+            position: relative;
+            width: 80px;
+            height: 16px;
+            top: 10px;
+        }
+
+        .person-guests {
+            position: relative;
+            width: 52px;
+            height: 16px;
+            font-size: 12px;
+            line-height: 16px;
+            left: 6px;
+        }
+
+        .rooms-RoomIcon {
+            position: relative;
+            width: 14px;
+            height: 14px;   
+            top: 2.5px;
+        }
+
+        .rooms-RoomText {
+            position: relative;
+            width: 52px;
+            height: 16px;
+            font-size: 12px;
+            line-height: 16px;
+            left: 12px;
+        }
+
+        .boxes-bookings-callCenter {
+            position: absolute;
+            width: 295px;
+            height: 25px;
+            top: 97px;
+            left: 27px;
+        }
+
+        .bookings-callCenter-quick {
+            width: 119px;
+            height: 25px;
+            font-size: 18px;
+            line-height: 25px;  
+        }
+
+        .bookings-callCenter-phoneCall {
+            position: relative;
+            width: 14px;
+            height: 14px;
+            left: 95px;
+        }
+
+        .phoneCall-number {
+            position: relative;
+            width: 54px;
+            height: 25px;
+            font-size: 18px;
+            line-height: 25px;
+            left: 102px;
+        }
+
+        .boxes-bookings-redButton{
+            position: absolute;
+            width: 295px;
+            height: 45px;
+            left: 27px;
+            top: 139px;
+            text-align: center;
+            background-color: #EC1F46;
+            border-radius: 4px;
+            
+        }
+
+        .bookings-redButton-options {
+            position: relative;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            top: 11px;
+        }
+
+    /*fine div bookings*/
+
+    /*inizio div textBar*/
+
+        .content-textBar {
+            position: relative;
+            width: 1105px;
+            height: 35.32px;
+            left: 165px;
+            top: 67.68px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+            color: #333333;
+        }
+
+        .textBar-package {
+            position: absolute;
+            width: 126px;
+            height: 16.45px;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+            color: #EC1F46;
+        }
+
+        .textBar-redRectangle {
+            position: absolute;
+            width: 130px;
+            height: 4px;
+            top: 31px;
+            background: #EC1F46;
+        } 
+
+        .textBar-hotel {
+            position: absolute;
+            width: 118px;
+            height: 16.45px;
+            left: 180px; 
+        }
+
+        .textBar-rooms {
+            position: absolute;
+            width: 47px;
+            height: 16.45px;
+            left: 351px;
+        }
+
+        .textBar-facilities {
+            position: absolute;
+            width: 137px;
+            height: 16.45px;
+            left: 451px;
+        }
+
+        .textBar-dining {
+            position: absolute;
+            width: 157px;
+            height: 16.45px;
+            left: 642px;
+        }
+
+        .textBar-reviews {
+            position: absolute;
+            width: 56px;
+            height: 16.45px;
+            left: 854px;
+        }
+
+        .textBar-questions {
+            position: absolute;
+            width: 143px;
+            height: 16.45px;
+            left: 962px;
+        }
+
+    /*fine div textBar*/
+
+    /*inizio div package*/
+
+    .content-package {
+        position: relative;
+        width: 1110px;
+        height: 842px;
+        left: 165px;
+        top: 143px;
+    }
+
+    .package-title {
+        position: absolute;
+        width: 240px;
+        height: 30px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        
+    }
+
+    .package-card-highlights {
+        position: absolute;
+        width: 538px;
+        height: 200px;
+        top: 59px;
+        background: #FFFFFF;
+        border-radius: 8px 8px 8px 8px;
+    }
+
+    .package-card {
+        position: absolute;
+        width: 538px;
+        height: 50px;
+        background: #0A223D;
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    .package-card-title {
+        position: absolute;
+        width: 130px;
+        height: 18px;
+        left: 24px;
+        top: 16px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    .package-card-highlights-body {
+        position: absolute;
+        width: 479px;
+        height: 96px;
+        left: 24px;
+        top: 77px;
+    }
+
+    .check {
+        position: relative;
+        width: 18px;
+        height: 18px;
+        background-image: url("images/18.webp");
+        background-repeat: no-repeat;
+        border: none;
+    }
+
+    .highlights-body-Ht, .highlights-body-Lt, .highlights-body-Ct, .highlights-body-Bt, .highlights-body-L {
+        position: relative;
+        height: 15px;
+        bottom: 29px;
+        left: 39px;
+        display: block;
+    }
+
+    .package-card-highlights-body-one {
+        position: relative;
+        width: 171px;
+        height: 18px;
+        top: -10px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .package-card-highlights-body-two {
+        position: relative;
+        width: 165px;
+        height: 18px;
+        left: 278px;
+        top: -40px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .package-card-highlights-body-three {
+        position: relative;
+        width: 210px;
+        height: 18px;
+        top: -32.5px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .package-card-highlights-body-four {
+        position: relative;
+        width: 195px;
+        height: 18px;
+        left: 278px;
+        top: -62.5px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .package-card-highlights-body-five {
+        position: relative;
+        width: 113px;
+        height: 18px;
+        top: -55px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    .package-card-chill {
+        position: relative;
+        width: 538px;
+        height: 200px;
+        left: 572px;
+        top: 59px;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+    }
+
+    .package-card-chill-body {
+        position: absolute;
+        width: 485px;
+        height: 103px;
+        left: 24px;
+        top: 79px;
+    }
+
+    .chill-body-benefit {
+        position: relative;
+        width: 205px;
+        height: 103px;
+        top: -15px;   
+    }
+
+    .chill-body-march {
+        position: relative;
+        width: 228px;
+        height: 18px;
+        left: 258px;
+        top: -120px;
+    }
+
+    .chill-body-benefit-text {
+        position: relative;
+        width: 168px;
+        height: 103px;
+        left: 37px;
+        top: -35px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .chill-body-benefit-text-valid {
+        position: relative;
+        top: 40px;
+        font-style: italic;
+        font-size: 10px;
+    }
+
+    .chill-body-march-text {
+        position: relative;
+        left: 21px;
+        top: -4px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .check2 {
+        position: relative;
+        width: 16px;
+        height: 16px;
+        background-image: url("images/19.webp");
+        background-repeat: no-repeat;
+        border: none;
+    }
+
+    .package-card-details {
+        position: relative;
+        width: 1110px;
+        height: 550px;
+        top: 90px;
+        background: #FFFFFF;
+        border-radius: 8px;
+    }
+
+    .package-card-details-head {
+        position: absolute;
+        width: 1110px;
+        height: 50px;
+        background: #0A223D;
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    .package-card-details-head-text {
+        position: absolute;
+        width: 176px;
+        height: 18px;
+        left: 24px;
+        top: 16px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    .line {
+        position: absolute;
+        width: 1048px;
+        height: 0px;
+        left: 25px;
+        top: 370px;
+        border: 1px dashed #E0E0E0;
+    }
+
+    .package-card-details-purchase {
+        position: relative;
+        width: 258px;
+        height: 239px;
+        left: 24px;
+        top: 88px;
+    }
+
+    .package-card-details-title {
+        position: absolute;
+        height: 16px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        color: #EC1F46;
+    }
+
+    .package-card-details-body {
+        position: absolute;
+        height: 201px;
+        width: 258px;
+        top: 36px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .package-card-details-top-texts {
+        position: relative;
+        height: 16px;
+        display: block;
+        top: -28px;
+        left: 40px;
+    }
+    
+    .group20, .group21, .group22, .group23, .group24, .group25 {
+        position: relative;
+        height: 16px;
+        margin-bottom: 21px;
+        top: -11px;
+        
+    }
+
+    .package-card-details-complimentary-land {
+        position: relative;
+        width: 258px;
+        height: 239px;
+        left: 402px;
+        top: -151px;
+    }
+
+    .package-card-details-complimentary-water {
+        position: relative;
+        width: 284px;
+        height: 239px;
+        left: 761px;
+        top: -390px;
+    }
+
+    .package-card-details-meal {
+        position: absolute;
+        width: 125px;
+        height: 90px;
+        left: 24px;
+        top: 408px;
+    }
+
+    .package-card-details-body-bottom {
+        position: absolute;
+        height: 53px;
+        width: 194px;
+        top: 36px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .group27, .group28 {
+        position: relative;
+        height: 16px;
+        margin-bottom: 21px;
+        top: -11px;
+    }
+
+    .package-card-details-entertainment {
+        position: absolute;
+        width: 194px;
+        height: 90px;
+        left: 402px;
+        top: 408px;
+    }
+
+    .package-card-details-check-in {
+        position: absolute;
+        width: 163px;
+        height: 90px;
+        left: 761px;
+        top: 408px;
+    }
+
+    .package-card-details-bottom-texts {
+        position: relative;
+        height: 16px;
+        display: block;
+        top: -28px;
+        left: 40px;
+    }
+
+/*ine div package*/
+
+/*inizio div other packages*/
+
+    .content-other-packages {
+        position: relative;
+        height: 1250px;
+        top: 240px;
+    }
+
+    .other-packages-title {
+        position: absolute;
+        width: 327px;
+        height: 45px;
+        left: 556px;
+        top: 40px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 45px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .other-packages-box1 {
+        position: absolute;
+        width: 730px;
+        height: 500px;
+        left: 165px;
+        top: 150px;
+        display: grid;
+    }
+
+    .other-packages-box1-left-side {
+        width: 366px;
+        height: 500px;
+    }
+
+    .other-packages-box1-offer-box {
+        position: absolute;
+        width: 95px;
+        height: 30px;
+        top: 26px;
+        background: #EC1F46;
+        border-radius: 0px 4px 4px 0px;
+    }
+
+    .other-packages-box1-offer-box-text {
+        position: absolute;
+        width: 72px;
+        height: 15px;
+        left: 11px;
+        top: 8px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+
+    .other-packages-box1-right-side  {
+        position: absolute;
+        width: 364px;
+        height: 500px;
+        left: 366px;
+        border-radius: 0px 8px 8px 0px;
+        color: #FFFFFF;
+        background-color: #0A223D;
+    }
+
+    .box1-right-side-body {
+        position: absolute;
+        height: 419px;
+        width: 299px;
+        top: 46px;
+        left: 43px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    .box1-right-side-stars-hotel {
+        position: absolute;
+        width: 149px;
+        height: 36px;
+    }
+
+    .box1-right-side-stars {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 48px;
+        height: 8px;
+        bottom: 5px;
+    }
+
+    .right-side-star-esterno, .right-side-star1-esterno, .right-side-star2-esterno, .right-side-star3-esterno, .right-side-star4-esterno {
+        position: absolute;
+        width: 8px;
+        height: 8px;    
+    }
+
+    .right-side-star-interno, .right-side-star1-interno, .right-side-star2-interno, .right-side-star3-interno, .right-side-star4-interno {
+        position: relative;
+        width: 8px;
+        height: 8px;
+        bottom: 1px;
+        left: 1px;
+    }
+
+    .right-side-star {
+        width: 8px;
+        height: 8px;
+    }
+
+    .right-side-star1 {
+        width: 8px;
+        height: 8px;
+        left: 10px;
+    }
+
+    .right-side-star2 {
+        width: 8px;
+        height: 8px;
+        left: 20px;
+    }
+
+    .right-side-star3 {
+        width: 8px;
+        height: 8px;
+        left: 30px;
+    }
+
+    .right-side-star4 {
+        width: 8px;
+        height: 8px;
+        left: 40px;
+    }
+
+    .box1-right-side-hotel-name {
+        position: absolute;
+        height: 23px;
+        top: 13px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .box1-right-side-description {
+        position: absolute;
+        width: 299px;
+        height: 165px;
+        top: 63px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .box1-right-side-informations {
+        position: absolute;
+        width: 203px;
+        height: 67px;
+        top: 240px;
+    }
+
+    .box1-right-side-informations-icon {
+        width: 14px;
+        height: 14px;
+    }
+
+    .box1-right-side-informations-address {
+        width: 203px;
+        height: 15px;
+    }
+
+    .box1-right-side-informations-address-text {
+        position: absolute;
+        width: 175px;
+        height: 15px;
+        left: 28px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .box1-right-side-informations-guest {
+        position: absolute;
+        width: 87px;
+        height: 15px;
+        top: 26px;
+    }
+
+    .box1-right-side-informations-guest-text {
+        position: absolute;
+        width: 59px;
+        height: 15px;
+        left: 28px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .box1-right-side-informations-room {
+        position: absolute;
+        width: 81px;
+        height: 15px;
+        top: 52px;
+    }
+
+    .box1-right-side-informations-room-text {
+        position: absolute;
+        width: 53px;
+        height: 15px;
+        left: 28px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .box1-right-side-old-price {
+        position: absolute;
+        width: 58px;
+        height: 18px;
+        top: 366px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-decoration-line: line-through;
+    }
+
+    .box1-right-side-new-price {
+        position: absolute;
+        height: 30px;
+        top: 389px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .box1-right-side-button {
+        position: absolute;
+        width: 120px;
+        height: 40px;
+        left: 179px;
+        top: 378px;
+        background: #EC1F46;
+        border-radius: 4px;
+    }
+
+    .box1-right-side-button-text {
+        position: absolute;
+        width: 68px;
+        height: 19px;
+        left: 26px;
+        top: 11px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .other-packages-box2 {
+        position: absolute;
+        width: 350px;
+        height: 500px;
+        left: 925px;
+        top: 150px;
+    }
+
+    .other-packages-box2-top {
+        position: absolute;
+        width: 350px;
+        height: 250px;
+    }
+
+    .other-packages-box2-bottom {
+        position: absolute;
+        width: 350px;
+        height: 250px;
+        top: 250px;
+        color: #FFFFFF;
+        background: #0A223D;
+        border-radius: 0px 0px 8px 8px;  
+    }
+
+    .other-packages-box2-offer-box {
+        position: absolute;
+        width: 60px;
+        height: 18px;
+        top: 26px;
+        background: #EC1F46;
+        border-radius: 0px 4px 4px 0px;
+    }
+
+    .other-packages-box2-offer-box-text {
+        position: absolute;
+        width: 43px;
+        height: 10px;
+        top: 4px;
+        left: 9px;
+        color: #FFFFFF;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .other-packages-box2-bottom-button {
+        position: absolute;
+        width: 120px;
+        height: 40px;
+        left: 209px;
+        top: 185px;
+        background: #EC1F46;
+        border-radius: 4px;
+    }
+
+    .other-packages-box2-bottom-button-text {
+        position: absolute;
+        width: 68px;
+        height: 19px;
+        left: 26px;
+        top: 11px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .other-packages-box2-bottom-informations {
+        position: absolute;
+        width: 203px;
+        height: 67px;
+        left: 32px;
+        top: 76px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .other-packages-box2-bottom-informations-address,  .other-packages-box2-bottom-informations-guest, .other-packages-box2-bottom-informations-room {
+        position: relative;
+        margin-bottom: 11px;
+        bottom: 4px;
+    }
+
+    .other-packages-box2-bottom-old-price {
+        position: absolute;
+        width: 60px;
+        height: 18px;
+        left: 32px;
+        top: 167px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-decoration-line: line-through;
+    }
+
+    .other-packages-box2-bottom-new-price {
+        position: absolute;
+        height: 30px;
+        left: 32px;
+        top: 190px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .other-packages-box2-bottom-hotel-name {
+        position: absolute;
+        width: 138px;
+        height: 23px;
+        left: 32px;
+        top: 30px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .other-packages-box3 {
+        position: absolute;
+        width: 350px;
+        height: 500px;
+        left: 165px;
+        top: 680px; 
+        }
+
+    .other-packages-box4 {
+        position: absolute;
+        width: 350px;
+        height: 500px;
+        left: 545px;
+        top: 680px;     
+        }
+
+    .other-packages-box5 {
+        position: absolute;
+        width: 350px;
+        height: 500px;
+        left: 925px;
+        top: 680px;       
+        }
+
+/*fine div guest review*/
+
+/* inizio div peoplerev*/
+
+    .content-people-reviews {
+        position: relative;
+        top: 240px;
+        height: 550px;
+    }
+
+    .people-reviews-title {
+        position: absolute;
+        width: 606px;
+        height: 45px;
+        left: 417px;
+        top: 40px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 45px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .people-reviews-arrows {
+        position: absolute;
+        width: 1074px;
+        height: 30px;
+        left: 183px;
+        top: 288px;
+    } 
+
+    .people-reviews-arrows-left {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+    }
+
+    .people-reviews-arrows-left-arrow {
+        position: absolute;
+        left: 33.33%;
+        right: 33.33%;
+        top: 20.83%;
+        bottom: 20.83%;
+    }
+
+    .people-reviews-arrows-right {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 1044px;
+    }
+
+    .people-reviews-arrows-right-arrow {
+        position: absolute;
+        left: 33.33%;
+        right: 33.33%;
+        top: 20.83%;
+        bottom: 20.83%;
+    }
+
+    .people-reviews-body {
+        position: absolute;
+        width: 731px;
+        height: 325px;
+        left: 344px;
+        top: 155px;
+    }
+
+    .people-reviews-body-bg {
+        position: absolute;
+        width: 731px;
+        height: 280px;
+        top: 45px;
+        background: #FFFFFF;
+        border-radius: 8px;
+    }
+
+    .people-reviews-body-texts {
+        position: absolute;
+        width: 607px;
+        height: 237.25px;
+        left: 64px;
+        top: 12.8px;
+    }
+
+    .people-reviews-body-texts-text {
+        position: absolute;
+        width: 537px;
+        height: 114px;
+        left: 35px;
+        top: 123.24px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 19px;
+        text-align: justify;
+    }
+
+    .people-reviews-body-texts-commas {
+        position: absolute;
+        width: 607px;
+        height: 153.49px;
+        top: 12.8px;
+    }
+
+    .people-reviews-body-texts-commas-left {
+        position: absolute;
+        transform: rotate(180deg);
+    }
+
+    .people-reviews-body-texts-commas-right {
+        position: absolute;
+        left: 537px;
+        top: 99.9px;  
+    }
+
+    .people-reviews-body-informations {
+        position: absolute;
+        width: 97px;
+        height: 149px;
+        left: 329px;
+        bottom: 176px;
+    }
+
+    .people-reviews-body-informations-photo {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+    }
+
+    .people-reviews-body-informations-name {
+        position: absolute;
+        width: 63px;
+        height: 15px;
+        left: 17px;
+        top: 99px; 
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        color: #EC1F46;
+    }
+
+    .people-reviews-body-informations-stayed {
+        position: absolute;
+        width: 97px;
+        height: 13px;
+        top: 124px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .people-reviews-body-informations-stars {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 48px;
+        height: 8px;
+        top: 134px;
+        left: 26px;
+    }
+
+    .star-esterno, .star-esterno1, .star-esterno2, .star-esterno3, .star-esterno4 {
+        position: absolute;
+        width: 8px;
+        height: 8px;    
+    }
+
+    .star-interno, .star-interno1, .star-interno2, .star-interno3, .star-interno4 {
+        position: relative;
+        width: 8px;
+        height: 8px;
+        bottom: 1px;
+        left: 1px;
+    }
+
+    .star {
+        width: 8px;
+        height: 8px;
+    }
+
+    .star1 {
+        width: 8px;
+        height: 8px;
+        left: 11px;
+        margin-left: 1px;
+    }
+
+    .star2 {
+        width: 8px;
+        height: 8px;
+        left: 22px;
+        margin-left: 1px;
+    }
+
+    .star3 {
+        width: 8px;
+        height: 8px;
+        left: 33px;
+        margin-left: 1px;
+    }
+
+    .star4 {
+        width: 8px;
+        height: 8px;
+        left: 43px;
+        margin-left: 1px;
+    }
+
+/*fine div people rev*/
+
+/*inizio div newsletter*/
+
+    .content-newsletter {
+        position: relative;
+        width: 1440px;
+        height: 260px;
+        left: 0px;
+        top: 240px;
+    }
+
+    .newsletter-sfondo {
+        background-image: url("images/30.webp");
+    }
+
+    .newsletter-subscribe {
+        position: absolute;
+        width: 242px;
+        height: 75px;
+        left: 344px;
+        top: 98px;
+    }
+
+    .newsletter-subscribe-text {
+        position: absolute;
+        width: 174px;
+        height: 30px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 23px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .newsletter-subscribe-text2 {
+        position: absolute;
+        width: 242px;
+        height: 45px;
+        top: 30px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .newsletter-subscribe-search {
+        position: absolute;
+        width: 350px;
+        height: 55px;
+        left: 725px;
+        top: 108px;
+    }
+
+    .newsletter-subscribe-search-label{
+        position: absolute;
+        top: 19px;
+        left: 33px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        color: #BDBDBD;
+        z-index: 2;
+    }
+
+    .newsletter-subscribe-search-button {
+        position: relative;
+        width: 65px;
+        height: 57px;
+        left: 289px;
+        bottom: 57px;
+        border: none;
+        background: #EC1F46;
+        border-radius: 0px 4px 4px 0px;
+    }
+
+    .newsletter-subscribe-search-button a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    #search-bar {
+        position: relative;
+        width: 350px;
+        height: 55px;
+        border: none;
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+
+/* fine div newsletter */
+
+/* inizio div activities*/
+
+    .content-activities {
+        position: relative;
+        height: 500px;
+        left: 0px;
+        top:240px;
+    }
+
+    .activities-title {
+        position: absolute;
+        width: 220px;
+        height: 30px;
+        left: 165px;
+        top: 60px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .activities-box1 {
+        position: absolute;
+        width: 255px;
+        height: 255px;
+        left: 165px;
+        top: 147px;
+    }
+
+    .box1-background-image {
+        background-image: url("images/32.webp");
+    }
+
+    .activities-box2 {
+        position: absolute;
+        width: 256px;
+        height: 255px;
+        left: 449px;
+        top: 147px;
+    }
+
+    .box2-background-image {
+        background-image: url("images/33.webp");
+    }
+
+    .activities-box3 {
+        position: absolute;
+        width: 256px;
+        height: 255px;
+        left: 735px;
+        top: 147px;
+    }
+
+    .box3-background-image {
+        background-image: url("images/34.webp");
+    }
+
+    .activities-box4 {
+        position: absolute;
+        width: 256px;
+        height: 255px;
+        left: 1020px;
+        top: 147px;
+    }
+
+    .box4-background-image {
+        background-image: url("images/35.webp");
+    }
+
+    .activities-box-text {
+        position: absolute;
+        width: 161px;
+        height: 40px;
+        left: 26px;
+        top: 143px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .activities-box-text1 {
+        position: absolute;
+        width: 200px;
+        height: 40px;
+        left: 26px;
+        top: 143px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .activities-boxes-button {
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        left: 26px;
+        top: 201px;
+        background: #EC1F46;
+        border-radius: 4px;
+    }
+
+    .activities-boxes-button-text {
+        position: absolute;
+        width: 59px;
+        height: 16px;
+        left: 20px;
+        top: 7px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+/*fine div activities*/
+
+/* Style the footer */
+
+    .footer {
+        position: relative;
+        width: 1440px;
+        height: 900px;
+        background-color: #0A223D;
+    }
+
+    .footer-top {
+        position: absolute;
+        width: 1110px;
+        height: 223px;
+        left: 165px;
+        top: 108px;
+    }
+
+    .footer-middle {
+        position: absolute;
+        width: 1113px;
+        height: 317px;
+        left: 165px;
+        top: 420px; 
+    }
+
+    .footer-bottom {
+        position: absolute;
+        width: 696px;
+        height: 22px;
+        left: 578px;
+        top: 832px;   
+    }
+
+/*footer top*/
+
+    .footer-top-logo {
+        position: absolute;
+        width: 166px;
+        height: 192px;
+        top: 30px;
+        font-family: Luckiest Guy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 64px;
+        color: #FFFFFF;
+    }
+
+    .footer-top-categories {
+        position: absolute;
+        width: 156px;
+        height: 218px;
+        left: 285px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .footer-top-title {
+        color: #FFFFFF;
+        width: 156px;
+    }
+
+    .footer-top-body {
+        position: relative;
+        color: #bdbdbd;
+        font-family: Mulish;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 23px;
+        top: 10px;
+    }
+
+    .footer-top-additional {
+        position: absolute;
+        width: 251px;
+        height: 171px;
+        left: 570px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .footer-top-legal {
+        position: absolute;
+        width: 195px;
+        height: 127px;
+        left: 915px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .footer-top-social {
+        position: absolute;
+        width: 293px;
+        height: 24px;
+        left: 570px;
+        top: 196px;
+        display: flex;
+    }
+
+    .footer-top-social-text {
+        position: absolute;
+        width: 167px;
+        height: 23px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .footer-top-social-facebook {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 208px; 
+    }
+
+    .footer-top-social-youtube {
+        position: absolute;
+        width: 21px;
+        height: 21px;
+        left: 242px; 
+    }
+    
+    .footer-top-social-instagram {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 276px;  
+    }
+
+/*fine footer top*/
+
+/*inizio footer middle*/
+
+    .footer-middle-contact {
+        position: absolute;
+        width: 493px;
+        height: 245px;
+        top: 12px;
+    }
+
+    .footer-middle-contact-top-title {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .footer-middle-contact-top {
+        position: absolute;
+        width: 394px;
+        height: 69px;
+    }
+
+    .footer-middle-contact-top-subtitle {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: #BDBDBD;
+    }
+
+    .footer-middle-contact-bottom {
+        position: absolute;
+        width: 489px;
+        height: 159px;
+        left: 4px;
+        top: 91px;
+    }
+
+    .footer-middle-contact-bottom-left {
+        position: absolute;
+        width: 24px;
+        height: 151px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-middle-contact-bottom-right {
+        position: absolute;
+        width: 448px;
+        height: 154px;
+        left: 41px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 160%;
+        color: #BDBDBD;
+    }
+
+    .contact-bottom-left-call {
+        position: absolute;
+        top: 46px;
+    }
+
+    .contact-bottom-left-email {
+        position: absolute;
+        top: 135px;
+    }
+
+    .footer-middle-contact-form {
+        position: absolute;
+        width: 539px;
+        height: 317px;
+        left: 570px;  
+    }
+
+    .footer-middle-contact-form-title {
+        position: absolute;
+        width: 189px;
+        height: 23px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .footer-middle-contact-form-name {
+        position: absolute;
+        width: 255px;
+        height: 50px;
+        top: 62px;
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+
+    .footer-middle-contact-form-name-text, .footer-middle-contact-form-number-text, .footer-middle-contact-form-message-text  {
+        position: absolute;
+        width: 89px;
+        height: 15px;
+        left: 23px;
+        top: 18px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #BDBDBD;
+    }
+
+    .footer-middle-contact-form-number {
+        position: absolute;
+        width: 255px;
+        height: 50px;
+        top: 62px;
+        left: 285px;
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+
+    .footer-middle-contact-form-message {
+        position: absolute;
+        width: 539px;
+        height: 123px;
+        top: 122px;
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+
+    .footer-middle-contact-form-button {
+        position: absolute;
+        width: 539px;
+        height: 50px;
+        top: 267px;
+    }
+
+    .contact-form-button {
+        position: absolute;
+        width: 160px;
+        height: 50px;
+        background: #EC1F46;
+        border-radius: 4px;
+    }
+
+    .contact-form-button-text {
+        position: absolute;
+        width: 29px;
+        height: 15px;
+        left: 66px;
+        top: 18px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+
+    .contact-form-text {
+        position: absolute;
+        width: 97px;
+        height: 15px;
+        left: 442px;
+        top: 18px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        color: #E0E0E0;
+    }
+
+/*fine footer middle*/
+
+/*inizio footer bottom*/
+
+    .footer-bottom-payment-methods {
+        position: absolute;
+        width: 136px;
+        height: 22px;
+        left: 560px;
+    }
+
+/*fine footer bottom*/
