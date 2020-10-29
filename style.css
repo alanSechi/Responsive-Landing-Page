@@ -15,391 +15,448 @@ body {
 
 .content-div1 {
     position: relative;
-    width: 1440px;
-    height: 665px;
+    width: 360px;
+    height: 525px;
     background: #F4F6F9;
 }
 
 .content-div1-left-side {
     float: left;
     height: 440px;
-    width: 50%;
 }
 
-.content-div1-right-side {
-    position: relative;
-    float: right;
-    width: 50%;
-    left: -273px;
+@media screen and (max-width: 600px) {
+    .content-div1-right-side {
+        display: none;
+    }
 }
 
 .left-side-logo {
-    position: relative;
     width: 99px;
     height: 32px;
-    top: -91px;
-    left: 163px;
+    position: relative;
+    left: 131px;
+    top: -120px;
 }
 
 .left-side-title {
-    position: relative;
-    width: 546px;
-    height: 96px;
-    left: 163px;
-    top: 133px;
+    position: absolute;
+    width: 320px;
+    height: 119px;
+    left: 20px;
+    top: 150px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 30px;
+    line-height: 40px;
     display: flex;
     align-items: flex-end;
+    text-align: center;
     letter-spacing: 0.03em;
+    /* #333333 */
     color: #333333;
 }
 
 .left-side-text {
     position: absolute;
-    width: 453px;
-    height: 52px;
-    left: 163px;
+    width: 320px;
+    height: 70px;
+    left: 20px;
     top: 302px;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 26px;
-    color: #4F4F4F;
 }
 
 .left-side-buttons {
-    position: relative;
-    width: 348px;
-    height: 47px;
+    position: absolute;
     left: 163px;
-    top: 130px;
+    top: 422px;
+    left: 16px;
 }
 
 .left-side-buttons-apple {
     position: absolute;
-    width: 156.05px;
+    width: 145.69px;
     height: 47px;
 }
 
 .left-side-buttons-google {
     position: absolute;
-    width: 156.05px;
+    width: 145.69px;
     height: 47px;
-    left: 191.95px;
+    left: 174.3px;
 }
 
-@media screen and (max-width: 400px) {
+svg.svg {
+    position: absolute;
+    width: 145.69px;
+    height: 47px;
+}
+
+@media screen and (min-width: 600px) {
     .content-div1 {
         position: relative;
-        width: 360px;
-        height: 525px;
+        width: 1440px;
+        height: 665px;
     }
     .content-div1-left-side {
         float: left;
         height: 440px;
     }
     .content-div1-right-side {
-        display: none;
+        position: absolute;
+        width: 50%;
+        left: 447px;
+        top: 0;
     }
     .left-side-logo {
+        position: absolute;
         width: 99px;
         height: 32px;
-        position: absolute;
-        left: 131px;
-        top: -120px;
+        top: -91px;
+        left: 163px;
     }
     .left-side-title {
         position: absolute;
-        width: 320px;
-        height: 119px;
-        left: 20px;
-        top: 150px;
-        font-size: 30px;
-        line-height: 39.6px;
-        text-align: center;
-        letter-spacing: 3%;
-        font-weight: 700;
+        width: 546px;
+        height: 96px;
+        left: 163px;
+        top: 226px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: 0.03em;
+        /* #333333 */
+        color: #333333;
+        text-align: left;
     }
     .left-side-text {
         position: absolute;
-        width: 320px;
-        height: 70px;
-        left: 20px;
-        font-size: 16px;
-        line-height: 23px;
-        text-align: center;
+        width: 453px;
+        height: 52px;
+        left: 163px;
+        top: 352px;
+        text-align: left;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #4F4F4F;
     }
     .left-side-buttons {
-        position: absolute;
+        position: relative;
+        width: 348px;
+        height: 47px;
         left: 163px;
-        top: 260px;
-        left: 16px;
+        top: 452px;
     }
     .left-side-buttons-apple {
         position: absolute;
-        width: 145.69px;
+        width: 156.05px;
         height: 47px;
     }
     .left-side-buttons-google {
         position: absolute;
-        width: 145.69px;
+        width: 156.05px;
         height: 47px;
-        left: 174.3px;
+        left: 191.95px;
     }
 }
 
 .content-div2 {
     position: relative;
-    width: 1440px;
-    height: 592px;
+    width: 360px;
+    height: 854px;
     background-color: #ffffff;
 }
 
 .content-div2-left-side-sfondo {
+    display: none;
+}
+
+.content-div2-left-side-sfondo-mobile {
+    background-image: url("images/bottomLeftDiv2mobile.png");
+    position: relative;
+    top: 468px;
+}
+
+.content-div2-left-side-match {
     position: absolute;
-    width: 805px;
-    height: 592px;
-    left: 0px;
-    background-image: url("images/leftSideDiv2.png");
+    width: 247.21px;
+    height: 149.58px;
+    left: 20px;
+    top: 538px;
+    background: #FFFFFF;
+    border-radius: 2.74531px;
+    z-index: 2;
+}
+
+.content-div2-left-side-match-video {
+    position: absolute;
+    width: 247.21px;
+    height: 149.73px;
+    left: 92.79px;
+    top: 666.27px;
+    background-image: url("images/sfondoYTDiv2.png");
+    border-radius: 4px;
 }
 
 .right-side-title {
     position: absolute;
-    width: 582px;
+    width: 320px;
     height: 22px;
-    left: 797px;
-    top: 130px;
+    left: 20px;
+    top: 54px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
     /* identical to box height */
+    text-align: center;
     /* Brand Colour */
     color: #00ADEE;
 }
 
 .right-side-text-one {
     position: absolute;
-    width: 426.91px;
-    height: 37px;
-    left: 797px;
-    top: 182px;
+    width: 320px;
+    height: 74px;
+    left: 20px;
+    top: 103px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;
-    /* identical to box height */
+    text-align: center;
     /* #333333 */
     color: #333333;
 }
 
 .right-side-text-two {
     position: absolute;
-    width: 407px;
-    height: 185px;
-    left: 797px;
-    top: 246px;
+    width: 320px;
+    height: 208px;
+    left: 20px;
+    top: 197px;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 23px;
-    /* #4F4F4F */
-    color: #4F4F4F;
+    text-align: center;
 }
 
 .right-side-learn-more {
     position: absolute;
-    width: 582px;
+    width: 320px;
     height: 22px;
-    left: 797px;
-    top: 453px;
+    left: 20px;
+    top: 424px;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
     /* identical to box height */
+    text-align: center;
     /* Brand Colour */
     color: #00ADEE;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 600px) {
     .content-div2 {
         position: relative;
-        width: 360px;
-        height: 854px;
-        background-color: #ffffff;
+        width: 1440px;
+        height: 592px;
     }
     .content-div2-left-side-sfondo {
-        display: none;
+        position: absolute;
+        width: 805px;
+        height: 592px;
+        left: 0px;
+        background-image: url("images/leftSideDiv2.png");
+        display: block;
     }
     .content-div2-left-side-sfondo-mobile {
-        background-image: url("images/bottomLeftDiv2mobile.png");
-        position: relative;
-        top: 468px;
+        display: none;
+    }
+    .content-div2-left-side-match {
+        position: absolute;
+        width: 360px;
+        height: 218.06px;
+        left: 163px;
+        top: 109px;
+    }
+    .content-div2-left-side-match-video {
+        position: absolute;
+        width: 360px;
+        height: 218.27px;
+        left: 269px;
+        top: 296px;
     }
     .right-side-title {
         position: absolute;
-        width: 320px;
+        width: 582px;
         height: 22px;
-        left: 20px;
-        top: 54px;
+        left: 797px;
+        top: 130px;
         font-family: Lato;
         font-style: normal;
         font-weight: bold;
         font-size: 16px;
+        text-align: left;
         line-height: 21px;
-        /* identical to box height */
-        text-align: center;
-        /* Brand Colour */
         color: #00ADEE;
     }
     .right-side-text-one {
         position: absolute;
-        width: 320px;
-        height: 74px;
-        left: 20px;
-        top: 103px;
+        width: 426.91px;
+        height: 37px;
+        left: 797px;
+        top: 182px;
         font-family: Lato;
         font-style: normal;
         font-weight: bold;
         font-size: 28px;
+        text-align: left;
         line-height: 37px;
-        text-align: center;
-        /* #333333 */
         color: #333333;
     }
     .right-side-text-two {
         position: absolute;
-        width: 320px;
-        height: 208px;
-        left: 20px;
-        top: 197px;
+        width: 407px;
+        height: 185px;
+        left: 797px;
+        top: 246px;
         font-family: Lato;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
+        text-align: left;
         line-height: 23px;
-        text-align: center;
+        /* #4F4F4F */
+        color: #4F4F4F;
     }
     .right-side-learn-more {
         position: absolute;
-        width: 320px;
+        width: 582px;
         height: 22px;
-        left: 20px;
-        top: 424px;
+        left: 797px;
+        top: 453px;
         font-family: Lato;
         font-style: normal;
         font-weight: bold;
         font-size: 16px;
+        text-align: left;
         line-height: 21px;
-        /* identical to box height */
-        text-align: center;
-        /* Brand Colour */
         color: #00ADEE;
     }
 }
 
 .content-div3 {
     position: relative;
-    width: 1440px;
-    height: 716px;
-    background-color: coral;
+    width: 100%;
+    height: 664px;
+    background-color: yellow;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 600px) {
     .content-div3 {
         position: relative;
-        width: 360px;
-        height: 664px;
-        background-color: yellow;
+        width: 1440px;
+        height: 716px;
+        background-color: coral;
     }
 }
 
 .content-div4 {
     position: relative;
-    width: 1440px;
-    height: 735px;
-    background-color: blue;
+    width: 100%;
+    height: 1775px;
+    background-color: green;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 600px) {
     .content-div4 {
         position: relative;
-        width: 360px;
-        height: 1775px;
-        background-color: green;
+        width: 1440px;
+        height: 735px;
+        background-color: blue;
     }
 }
 
 .content-div5 {
     position: relative;
-    width: 1440px;
-    height: 431px;
-    background-color: yellow;
+    width: 100%;
+    height: 402px;
+    background-color: fuchsia;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 600px) {
     .content-div5 {
         position: relative;
-        width: 360px;
-        height: 402px;
-        background-color: fuchsia;
+        width: 1440px;
+        height: 431px;
+        background-color: yellow;
     }
 }
 
 .content-div6 {
     position: relative;
-    width: 1440px;
-    height: 278px;
-    background-color: orange;
+    width: 100%;
+    height: 409px;
+    background-color: aquamarine;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 600px) {
     .content-div6 {
         position: relative;
-        width: 360px;
-        height: 409px;
-        background-color: aquamarine;
+        width: 1440px;
+        height: 278px;
+        background-color: orange;
     }
 }
 
 .content-div7 {
     position: relative;
-    width: 1440px;
-    height: 483px;
-    background-color: orangered;
+    width: 100%;
+    height: 690px;
+    background-color: brown;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 600px) {
     .content-div7 {
         position: relative;
-        width: 360px;
-        height: 690px;
-        background-color: brown;
+        width: 1440px;
+        height: 483px;
+        background-color: orangered;
     }
 }
 
 .content-div8 {
     position: relative;
-    width: 1440px;
-    height: 127px;
-    background-color: violet;
+    width: 100%;
+    height: 210px;
+    background-color: red;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 600px) {
     .content-div8 {
         position: relative;
-        width: 360px;
-        height: 210px;
-        background-color: red;
+        width: 1440px;
+        height: 127px;
+        background-color: violet;
     }
 }
