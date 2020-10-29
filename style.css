@@ -171,6 +171,11 @@ svg.svg {
         height: 47px;
         left: 191.95px;
     }
+    svg.svg {
+        position: absolute;
+        width: 156.05px;
+        height: 47px;
+    }
 }
 
 .content-div2 {
