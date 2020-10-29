@@ -1,4 +1,4 @@
-Responsive Landing Page
+Responsive Landing Page Mobile First
 
 created with HTML and CSS only
 
