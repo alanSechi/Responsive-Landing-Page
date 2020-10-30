@@ -25,7 +25,7 @@ body {
     height: 440px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 460px) {
     .content-div1-right-side {
         display: none;
     }
@@ -98,7 +98,7 @@ svg.svg {
     height: 47px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 460px) {
     .content-div1 {
         position: relative;
         width: 1440px;
@@ -280,7 +280,7 @@ svg.svg {
     color: #00ADEE;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 460px) {
     .content-div2 {
         position: relative;
         width: 1440px;
@@ -377,7 +377,7 @@ svg.svg {
     background-color: yellow;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 460px) {
     .content-div3 {
         position: relative;
         width: 1440px;
@@ -393,7 +393,7 @@ svg.svg {
     background-color: green;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 460px) {
     .content-div4 {
         position: relative;
         width: 1440px;
@@ -409,7 +409,7 @@ svg.svg {
     background-color: fuchsia;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 460px) {
     .content-div5 {
         position: relative;
         width: 1440px;
@@ -425,7 +425,7 @@ svg.svg {
     background-color: aquamarine;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 460px) {
     .content-div6 {
         position: relative;
         width: 1440px;
@@ -441,7 +441,7 @@ svg.svg {
     background-color: brown;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 460px) {
     .content-div7 {
         position: relative;
         width: 1440px;
@@ -457,7 +457,7 @@ svg.svg {
     background-color: red;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 460px) {
     .content-div8 {
         position: relative;
         width: 1440px;
