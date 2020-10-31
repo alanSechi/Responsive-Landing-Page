@@ -206,6 +206,107 @@
         z-index: 2;
     }
     
+    .match-informations-date {
+        position: absolute;
+        width: 69.47px;
+        height: 15.82px;
+        left: 10.81px;
+        top: 18.7px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11.5188px;
+        line-height: 15px;
+        color: #4F4F4F;
+    }
+    
+    .match-informations-players {
+        position: absolute;
+        width: 52.61px;
+        height: 34.52px;
+        left: 10.81px;
+        top: 43.15px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12.3539px;
+        line-height: 16px;
+        color: #000000;
+    }
+    
+    .match-informations-category {
+        position: absolute;
+        width: 85.05px;
+        height: 17.26px;
+        left: 10.81px;
+        top: 87.01px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10.9812px;
+        line-height: 14px;
+        color: #000000;
+    }
+    
+    .match-notifications-text {
+        position: absolute;
+        width: 172.25px;
+        height: 17.26px;
+        left: 10.81px;
+        top: 125.13px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12.9587px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #4F4F4F;
+        z-index: 2;
+    }
+    
+    .match-team-1 {
+        position: absolute;
+        width: 48.76px;
+        height: 57.53px;
+        left: 139.1px;
+        top: 31.64px;
+    }
+    
+    .match-team-2 {
+        position: absolute;
+        width: 57.66px;
+        height: 57.53px;
+        left: 179.46px;
+        top: 31.64px;
+    }
+    
+    .match-notifications {
+        position: absolute;
+        width: 247.21px;
+        height: 33.8px;
+        top: 115.78px;
+        background: #EEEEEE;
+        border-radius: 0px 0px 2.74531px 2.74531px;
+    }
+    
+    .match-notifications-dot {
+        position: absolute;
+        width: 14.41px;
+        height: 14.38px;
+        left: 205.13px;
+        top: 10.07px;
+    }
+    
+    .match-notifications-bar {
+        position: absolute;
+        width: 18.74px;
+        height: 8.63px;
+        left: 210.45px;
+        top: 12.94px;
+        background: #979797;
+        border-radius: 71.9927px;
+    }
+    
     .content-div2-left-side-match-video {
         position: absolute;
         width: 247.21px;
@@ -387,6 +488,98 @@
             height: 218.06px;
             left: 163px;
             top: 109px;
+        }
+        .match-informations-date {
+            position: absolute;
+            width: 101.71px;
+            height: 23.06px;
+            left: 15.74px;
+            top: 27.26px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16.7833px;
+            line-height: 22px;
+            color: #4F4F4F;
+        }
+        .match-informations-players {
+            position: absolute;
+            width: 76.62px;
+            height: 50.32px;
+            left: 15.74px;
+            top: 62.9px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            color: #000000;
+        }
+        .match-informations-category {
+            position: absolute;
+            width: 123.85px;
+            height: 25.16px;
+            left: 15.74px;
+            top: 126.85px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 21px;
+            color: #000000;
+        }
+        .match-notifications-text {
+            position: absolute;
+            width: 250.85px;
+            height: 25.16px;
+            left: 15.74px;
+            top: 179.41px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18.8812px;
+            line-height: 25px;
+            /* identical to box height */
+            color: #4F4F4F;
+            z-index: 2;
+        }
+        .match-team-1 {
+            position: absolute;
+            width: 71px;
+            height: 83.87px;
+            left: 202.57px;
+            top: 46.13px;
+        }
+        .match-team-2 {
+            position: absolute;
+            width: 83.97px;
+            height: 83.87px;
+            left: 261.34px;
+            top: 46.13px;
+        }
+        .match-notifications {
+            position: absolute;
+            width: 360px;
+            height: 49.27px;
+            top: 168.78px;
+            background: #EEEEEE;
+            border-radius: 0px 0px 2.74531px 2.74531px;
+        }
+        .match-notifications-dot {
+            position: absolute;
+            width: 20.99px;
+            height: 20.97px;
+            left: 300.18px;
+            top: 15.68px;
+        }
+        .match-notifications-bar {
+            position: absolute;
+            width: 27.29px;
+            height: 12.58px;
+            left: 306.47px;
+            top: 18.87px;
+            background: #979797;
+            border-radius: 71.9927px;
         }
         .content-div2-left-side-match-video {
             position: absolute;
