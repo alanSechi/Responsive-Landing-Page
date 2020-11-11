@@ -18,6 +18,7 @@
         width: 360px;
         height: 525px;
         background: #F4F6F9;
+        display: flex;
     }
     
     .content-div1-left-side {
@@ -25,7 +26,7 @@
         height: 440px;
     }
     
-    @media screen and (max-width: 460px) {
+    @media screen and (max-width: 480px) {
         .content-div1-right-side {
             display: none;
         }
@@ -98,7 +99,7 @@
         height: 47px;
     }
     
-    @media screen and (min-width: 460px) {
+    @media screen and (min-width: 480px) {
         .content-div1 {
             position: relative;
             width: 1440px;
@@ -465,7 +466,7 @@
         color: #00ADEE;
     }
     
-    @media screen and (min-width: 460px) {
+    @media screen and (min-width: 480px) {
         .content-div2 {
             position: relative;
             width: 1440px;
@@ -719,17 +720,224 @@
     
     .content-div3 {
         position: relative;
-        width: 100%;
-        height: 664px;
-        background-color: yellow;
+        width: 360px;
+        height: 996px;
     }
     
-    @media screen and (min-width: 460px) {
+    .content-div3-left-side {
+        height: 428px;
+    }
+    
+    .div3-left-side-title {
+        top: 63px;
+        color: #00ADEE;
+        position: absolute;
+        width: 320px;
+        height: 22px;
+        left: 20px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+    }
+    
+    .div3-left-side-text-one {
+        position: absolute;
+        width: 320px;
+        height: 37px;
+        left: 20px;
+        top: 112px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 37px;
+        text-align: center;
+        /* #333333 */
+        color: #333333;
+    }
+    
+    .div3-left-side-text-two {
+        position: absolute;
+        width: 320px;
+        height: 208px;
+        left: 20px;
+        top: 176px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+    }
+    
+    .div3-left-side-learn-more {
+        position: absolute;
+        width: 320px;
+        height: 22px;
+        left: 20px;
+        top: 409px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: center;
+        /* Brand Colour */
+        color: #00ADEE;
+    }
+    
+    .div3-right-side-smartphone-mobile {
+        position: absolute;
+        height: 464px;
+        width: 249px;
+        left: 24.73px;
+        top: 516.33px;
+    }
+    
+    .div3-right-side-smartphone-desktop {
+        display: none;
+    }
+    
+    .div3-right-side-notification {
+        position: absolute;
+        left: 34.78px;
+        top: 526.33px;
+    }
+    
+    .notification-icon {
+        position: absolute;
+        width: 95px;
+        height: 95px;
+    }
+    
+    .div3-right-side-chart {
+        position: absolute;
+        left: 230.33px;
+        top: 778.2px;
+    }
+    
+    .chart-icon {
+        position: absolute;
+        width: 95px;
+        height: 95px;
+    }
+    
+    .div3-right-side-dot {
+        display: none;
+    }
+    
+    .div3-right-side-wide {
+        display: none;
+    }
+    
+    @media screen and (min-width: 480px) {
         .content-div3 {
             position: relative;
             width: 1440px;
             height: 716px;
-            background-color: coral;
+            background-image: url("images/backgroundDiv3.svg");
+        }
+        .div3-left-side-title {
+            position: absolute;
+            width: 118px;
+            height: 22px;
+            left: 162px;
+            top: 217px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 21px;
+            text-align: left;
+        }
+        .div3-left-side-text-one {
+            position: absolute;
+            width: 297px;
+            height: 37px;
+            left: 162px;
+            top: 266px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 37px;
+            text-align: left;
+            color: #333333;
+        }
+        .div3-left-side-text-two {
+            position: absolute;
+            width: 480px;
+            height: 139px;
+            left: 162px;
+            top: 330px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 23px;
+            text-align: left;
+            color: #4f4f4f;
+        }
+        .div3-left-side-learn-more {
+            position: absolute;
+            width: 582px;
+            height: 22px;
+            left: 162px;
+            top: 523px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 21px;
+            text-align: left;
+            color: #00ADEE;
+        }
+        .div3-right-side-sfondo {
+            display: none;
+        }
+        .div3-right-side-smartphone-mobile {
+            display: none;
+        }
+        .div3-right-side-smartphone-desktop {
+            position: absolute;
+            width: 257px;
+            height: 513px;
+            left: 835px;
+            top: 104px;
+            display: block;
+        }
+        .div3-right-side-notification {
+            position: absolute;
+            left: 842px;
+            top: 149px;
+        }
+        .notification-icon {
+            position: absolute;
+            width: 125px;
+            height: 125px;
+        }
+        .div3-right-side-chart {
+            display: none;
+        }
+        .div3-right-side-dot {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            left: 775px;
+            top: 519px;
+            display: block;
+        }
+        .div3-right-side-wide {
+            position: absolute;
+            width: 91px;
+            height: 91px;
+            left: 1101px;
+            top: 471px;
+            display: block;
         }
     }
     
@@ -737,15 +945,14 @@
         position: relative;
         width: 100%;
         height: 1775px;
-        background-color: green;
     }
     
-    @media screen and (min-width: 460px) {
+    @media screen and (min-width: 480px) {
         .content-div4 {
             position: relative;
             width: 1440px;
             height: 735px;
-            background-color: blue;
+            background-image: url("images/backgroundDiv4.svg");
         }
     }
     
@@ -756,7 +963,7 @@
         background-color: fuchsia;
     }
     
-    @media screen and (min-width: 460px) {
+    @media screen and (min-width: 480px) {
         .content-div5 {
             position: relative;
             width: 1440px;
@@ -772,7 +979,7 @@
         background-color: aquamarine;
     }
     
-    @media screen and (min-width: 460px) {
+    @media screen and (min-width: 480px) {
         .content-div6 {
             position: relative;
             width: 1440px;
@@ -788,7 +995,7 @@
         background-color: brown;
     }
     
-    @media screen and (min-width: 460px) {
+    @media screen and (min-width: 480px) {
         .content-div7 {
             position: relative;
             width: 1440px;
@@ -804,7 +1011,7 @@
         background-color: red;
     }
     
-    @media screen and (min-width: 460px) {
+    @media screen and (min-width: 480px) {
         .content-div8 {
             position: relative;
             width: 1440px;
