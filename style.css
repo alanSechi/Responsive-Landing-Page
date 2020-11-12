@@ -1208,11 +1208,111 @@
                 height: 690px;
             }
             
+            .content-div7-left-side-mobile {
+                position: absolute;
+                width: 360px;
+                height: 261px;
+                left: 0px;
+                top: 430px;
+            }
+            
+            .content-div7-left-side-desktop {
+                display: none;
+            }
+            
+            .content-div7-right-side {
+                position: absolute;
+                width: 320px;
+                height: 370px;
+                left: 20px;
+                top: 19px;
+            }
+            
+            .div7-right-side-title {
+                position: absolute;
+                width: 320px;
+                height: 74px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 37px;
+                text-align: center;
+                color: #333333;
+            }
+            
+            .div7-right-side-text {
+                position: absolute;
+                width: 309.03px;
+                height: 200px;
+                top: 89px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 25px;
+                text-align: center;
+                color: #4F4F4F;
+            }
+            
+            .div7-right-side-buttons {
+                position: absolute;
+                top: 326px;
+            }
+            
             @media screen and (min-width: 380px) {
                 .content-div7 {
                     position: relative;
                     width: 1440px;
                     height: 483px;
+                }
+                .content-div7-left-side-mobile {
+                    display: none;
+                }
+                .content-div7-left-side-desktop {
+                    position: absolute;
+                    width: 666px;
+                    height: 483px;
+                    display: block;
+                }
+                .div7-right-side-title {
+                    position: absolute;
+                    width: 554px;
+                    height: 37px;
+                    left: 743px;
+                    top: 105px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 28px;
+                    text-align: left;
+                    line-height: 37px;
+                    color: #333333;
+                }
+                .div7-right-side-text {
+                    position: absolute;
+                    width: 535px;
+                    height: 125px;
+                    left: 743px;
+                    top: 177px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    text-align: left;
+                    line-height: 25px;
+                    color: #4F4F4F;
+                }
+                .div7-right-side-buttons {
+                    position: absolute;
+                    top: 340px;
+                    left: 743px;
+                    width: 348px;
+                    height: 47px;
+                }
+                .right-side-buttons-google {
+                    position: absolute;
+                    left: 191.90px;
                 }
             }
             
