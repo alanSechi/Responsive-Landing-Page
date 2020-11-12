@@ -13,7 +13,7 @@
                 vertical-align: top;
             }
             
-            @media screen and (max-width: 380px) {
+            @media screen and (max-width: 460px) {
                 html,
                 body {
                     height: 100%;
@@ -41,7 +41,7 @@
                 height: 440px;
             }
             
-            @media screen and (max-width: 380px) {
+            @media screen and (max-width: 460px) {
                 .content-div1-right-side {
                     display: none;
                 }
@@ -114,7 +114,7 @@
                 height: 47px;
             }
             
-            @media screen and (min-width: 380px) {
+            @media screen and (min-width: 460px) {
                 .content-div1 {
                     position: relative;
                     width: 1440px;
@@ -482,7 +482,7 @@
                 color: #00ADEE;
             }
             
-            @media screen and (min-width: 380px) {
+            @media screen and (min-width: 460px) {
                 .content-div2 {
                     position: relative;
                     width: 1440px;
@@ -850,7 +850,7 @@
                 display: none;
             }
             
-            @media screen and (min-width: 380px) {
+            @media screen and (min-width: 460px) {
                 .content-div3 {
                     position: relative;
                     width: 1440px;
@@ -1073,7 +1073,7 @@
                 left: 25px;
             }
             
-            @media screen and (min-width: 380px) {
+            @media screen and (min-width: 460px) {
                 .content-div4 {
                     position: relative;
                     width: 1440px;
@@ -1176,7 +1176,7 @@
                 height: 402px;
             }
             
-            @media screen and (min-width: 380px) {
+            @media screen and (min-width: 460px) {
                 .content-div5 {
                     position: relative;
                     width: 1440px;
@@ -1255,7 +1255,7 @@
                 top: 304px
             }
             
-            @media screen and (min-width: 380px) {
+            @media screen and (min-width: 460px) {
                 .content-div6 {
                     position: relative;
                     width: 1440px;
@@ -1378,7 +1378,7 @@
                 top: 326px;
             }
             
-            @media screen and (min-width: 380px) {
+            @media screen and (min-width: 460px) {
                 .content-div7 {
                     position: relative;
                     width: 1440px;
@@ -1514,7 +1514,7 @@
                 left: 105px;
             }
             
-            @media screen and (min-width: 380px) {
+            @media screen and (min-width: 460px) {
                 .content-div8-footer {
                     position: relative;
                     width: 1440px;
