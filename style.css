@@ -1,1021 +1,1215 @@
-    html,
-    body {
-        height: 100%;
-    }
-    
-    html {
-        display: table;
-        margin: auto;
-    }
-    
-    body {
-        display: table-cell;
-        vertical-align: top;
-    }
-    
-    .content-div1 {
-        position: relative;
-        width: 360px;
-        height: 525px;
-        background: #F4F6F9;
-        display: flex;
-    }
-    
-    .content-div1-left-side {
-        float: left;
-        height: 440px;
-    }
-    
-    @media screen and (max-width: 480px) {
-        .content-div1-right-side {
-            display: none;
-        }
-    }
-    
-    .left-side-logo {
-        width: 99px;
-        height: 32px;
-        position: relative;
-        left: 131px;
-        top: -120px;
-    }
-    
-    .left-side-title {
-        position: absolute;
-        width: 320px;
-        height: 119px;
-        left: 20px;
-        top: 150px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 40px;
-        display: flex;
-        align-items: flex-end;
-        text-align: center;
-        letter-spacing: 0.03em;
-        /* #333333 */
-        color: #333333;
-    }
-    
-    .left-side-text {
-        position: absolute;
-        width: 320px;
-        height: 70px;
-        left: 20px;
-        top: 302px;
-        font-size: 16px;
-        line-height: 23px;
-        text-align: center;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-    }
-    
-    .left-side-buttons {
-        position: absolute;
-        left: 163px;
-        top: 422px;
-        left: 16px;
-    }
-    
-    .left-side-buttons-apple {
-        position: absolute;
-        width: 145.69px;
-        height: 47px;
-    }
-    
-    .left-side-buttons-google {
-        position: absolute;
-        width: 145.69px;
-        height: 47px;
-        left: 174.3px;
-    }
-    
-    svg.svg {
-        position: absolute;
-        width: 145.69px;
-        height: 47px;
-    }
-    
-    @media screen and (min-width: 480px) {
-        .content-div1 {
-            position: relative;
-            width: 1440px;
-            height: 665px;
-        }
-        .content-div1-left-side {
-            float: left;
-            height: 440px;
-        }
-        .content-div1-right-side {
-            position: absolute;
-            width: 50%;
-            left: 447px;
-            top: 0;
-        }
-        .left-side-logo {
-            position: absolute;
-            width: 99px;
-            height: 32px;
-            top: -91px;
-            left: 163px;
-        }
-        .left-side-title {
-            position: absolute;
-            width: 546px;
-            height: 96px;
-            left: 163px;
-            top: 226px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            line-height: 48px;
-            display: flex;
-            align-items: flex-end;
-            letter-spacing: 0.03em;
-            /* #333333 */
-            color: #333333;
-            text-align: left;
-        }
-        .left-side-text {
-            position: absolute;
-            width: 453px;
-            height: 52px;
-            left: 163px;
-            top: 352px;
-            text-align: left;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 26px;
-            color: #4F4F4F;
-        }
-        .left-side-buttons {
-            position: relative;
-            width: 348px;
-            height: 47px;
-            left: 163px;
-            top: 452px;
-        }
-        .left-side-buttons-apple {
-            position: absolute;
-            width: 156.05px;
-            height: 47px;
-        }
-        .left-side-buttons-google {
-            position: absolute;
-            width: 156.05px;
-            height: 47px;
-            left: 191.95px;
-        }
-        svg.svg {
-            position: absolute;
-            width: 156.05px;
-            height: 47px;
-        }
-    }
-    
-    .content-div2 {
-        position: relative;
-        width: 360px;
-        height: 854px;
-        background-color: #ffffff;
-    }
-    
-    .content-div2-left-side-sfondo {
-        display: none;
-    }
-    
-    .content-div2-left-side-sfondo-mobile {
-        background-image: url("images/bottomLeftDiv2mobile.png");
-        position: relative;
-        top: 468px;
-    }
-    
-    .content-div2-left-side-match {
-        position: absolute;
-        width: 247.21px;
-        height: 149.58px;
-        left: 20px;
-        top: 538px;
-        background: #FFFFFF;
-        border-radius: 2.74531px;
-        z-index: 2;
-    }
-    
-    .match-informations-date {
-        position: absolute;
-        width: 69.47px;
-        height: 15.82px;
-        left: 10.81px;
-        top: 18.7px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 11.5188px;
-        line-height: 15px;
-        color: #4F4F4F;
-    }
-    
-    .match-informations-players {
-        position: absolute;
-        width: 52.61px;
-        height: 34.52px;
-        left: 10.81px;
-        top: 43.15px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 12.3539px;
-        line-height: 16px;
-        color: #000000;
-    }
-    
-    .match-informations-category {
-        position: absolute;
-        width: 85.05px;
-        height: 17.26px;
-        left: 10.81px;
-        top: 87.01px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10.9812px;
-        line-height: 14px;
-        color: #000000;
-    }
-    
-    .match-notifications-text {
-        position: absolute;
-        width: 172.25px;
-        height: 17.26px;
-        left: 10.81px;
-        top: 125.13px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12.9587px;
-        line-height: 17px;
-        /* identical to box height */
-        color: #4F4F4F;
-        z-index: 2;
-    }
-    
-    .match-team-1 {
-        position: absolute;
-        width: 48.76px;
-        height: 57.53px;
-        left: 139.1px;
-        top: 31.64px;
-    }
-    
-    .match-team-2 {
-        position: absolute;
-        width: 57.66px;
-        height: 57.53px;
-        left: 179.46px;
-        top: 31.64px;
-    }
-    
-    .match-notifications {
-        position: absolute;
-        width: 247.21px;
-        height: 33.8px;
-        top: 115.78px;
-        background: #EEEEEE;
-        border-radius: 0px 0px 2.74531px 2.74531px;
-    }
-    
-    .match-notifications-dot {
-        position: absolute;
-        width: 14.41px;
-        height: 14.38px;
-        left: 205.13px;
-        top: 10.07px;
-    }
-    
-    .match-notifications-bar {
-        position: absolute;
-        width: 18.74px;
-        height: 8.63px;
-        left: 210.45px;
-        top: 12.94px;
-        background: #979797;
-        border-radius: 71.9927px;
-    }
-    
-    .content-div2-left-side-match-video {
-        position: absolute;
-        width: 247.21px;
-        height: 149.73px;
-        left: 92.79px;
-        top: 666.27px;
-        background-image: url("images/sfondoYTDiv2.png");
-        border-radius: 4px;
-    }
-    
-    .match-video-player {
-        position: absolute;
-        width: 247.21px;
-        height: 33.8px;
-        top: 115.93px;
-        opacity: 0.6;
-        background: #000000;
-        border-radius: 0px 0px 2.74531px 2.74531px;
-    }
-    
-    .match-video-player-1 {
-        position: absolute;
-        width: 16.48px;
-        height: 16.46px;
-        left: 10.3px;
-        top: 119.84px;
-    }
-    
-    .match-video-player-2 {
-        position: absolute;
-        width: 21.29px;
-        height: 10.29px;
-        left: 35.71px;
-        top: 127.59px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 8.23592px;
-        line-height: 10px;
-        color: #FFFFFF;
-    }
-    
-    .match-video-player-3 {
-        position: absolute;
-        width: 118.11px;
-        height: 2.74px;
-        left: 65.92px;
-        top: 131.65px;
-        /* #BDBDBD */
-        background: #BDBDBD;
-        border-radius: 71.9927px;
-    }
-    
-    .match-video-player-4 {
-        position: absolute;
-        width: 87.21px;
-        height: 2.74px;
-        /* Brand Colour */
-        background: #00ADEE;
-        border-radius: 71.9927px;
-        z-index: 2;
-    }
-    
-    .match-video-player-5 {
-        position: absolute;
-        width: 6.87px;
-        height: 6.86px;
-        left: 83.09px;
-        z-index: 3;
-        bottom: 5px;
-    }
-    
-    .match-video-player-6 {
-        position: absolute;
-        width: 21.29px;
-        height: 10.29px;
-        left: 192.965px;
-        top: 127.65px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 8.23592px;
-        line-height: 10px;
-        color: #FFFFFF;
-    }
-    
-    .match-video-player-7 {
-        position: absolute;
-        width: 13.73px;
-        height: 13.72px;
-        left: 223.17px;
-        top: 121.84px;
-    }
-    
-    .right-side-title {
-        position: absolute;
-        width: 320px;
-        height: 22px;
-        left: 20px;
-        top: 54px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 21px;
-        /* identical to box height */
-        text-align: center;
-        /* Brand Colour */
-        color: #00ADEE;
-    }
-    
-    .right-side-text-one {
-        position: absolute;
-        width: 320px;
-        height: 74px;
-        left: 20px;
-        top: 103px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 37px;
-        text-align: center;
-        /* #333333 */
-        color: #333333;
-    }
-    
-    .right-side-text-two {
-        position: absolute;
-        width: 320px;
-        height: 208px;
-        left: 20px;
-        top: 197px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 23px;
-        text-align: center;
-    }
-    
-    .right-side-learn-more {
-        position: absolute;
-        width: 320px;
-        height: 22px;
-        left: 20px;
-        top: 424px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 21px;
-        /* identical to box height */
-        text-align: center;
-        /* Brand Colour */
-        color: #00ADEE;
-    }
-    
-    @media screen and (min-width: 480px) {
-        .content-div2 {
-            position: relative;
-            width: 1440px;
-            height: 592px;
-        }
-        .content-div2-left-side-sfondo {
-            position: absolute;
-            width: 805px;
-            height: 592px;
-            left: 0px;
-            background-image: url("images/leftSideDiv2.png");
-            display: block;
-        }
-        .content-div2-left-side-sfondo-mobile {
-            display: none;
-        }
-        .content-div2-left-side-match {
-            position: absolute;
-            width: 360px;
-            height: 218.06px;
-            left: 163px;
-            top: 109px;
-        }
-        .match-informations-date {
-            position: absolute;
-            width: 101.71px;
-            height: 23.06px;
-            left: 15.74px;
-            top: 27.26px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 16.7833px;
-            line-height: 22px;
-            color: #4F4F4F;
-        }
-        .match-informations-players {
-            position: absolute;
-            width: 76.62px;
-            height: 50.32px;
-            left: 15.74px;
-            top: 62.9px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 24px;
-            color: #000000;
-        }
-        .match-informations-category {
-            position: absolute;
-            width: 123.85px;
-            height: 25.16px;
-            left: 15.74px;
-            top: 126.85px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 21px;
-            color: #000000;
-        }
-        .match-notifications-text {
-            position: absolute;
-            width: 250.85px;
-            height: 25.16px;
-            left: 15.74px;
-            top: 179.41px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18.8812px;
-            line-height: 25px;
-            /* identical to box height */
-            color: #4F4F4F;
-            z-index: 2;
-        }
-        .match-team-1 {
-            position: absolute;
-            width: 71px;
-            height: 83.87px;
-            left: 202.57px;
-            top: 46.13px;
-        }
-        .match-team-2 {
-            position: absolute;
-            width: 83.97px;
-            height: 83.87px;
-            left: 261.34px;
-            top: 46.13px;
-        }
-        .match-notifications {
-            position: absolute;
-            width: 360px;
-            height: 49.27px;
-            top: 168.78px;
-            background: #EEEEEE;
-            border-radius: 0px 0px 2.74531px 2.74531px;
-        }
-        .match-notifications-dot {
-            position: absolute;
-            width: 20.99px;
-            height: 20.97px;
-            left: 300.18px;
-            top: 15.68px;
-        }
-        .match-notifications-bar {
-            position: absolute;
-            width: 27.29px;
-            height: 12.58px;
-            left: 306.47px;
-            top: 18.87px;
-            background: #979797;
-            border-radius: 71.9927px;
-        }
-        .content-div2-left-side-match-video {
-            position: absolute;
-            width: 360px;
-            height: 218.27px;
-            left: 269px;
-            top: 296px;
-        }
-        .match-video-player {
-            position: absolute;
-            width: 360px;
-            height: 49.27px;
-            top: 169px;
-            background: #000000;
-            opacity: 0.6;
-            border-radius: 0px 0px 4px 4px;
-        }
-        .match-video-player-1 {
-            position: absolute;
-            width: 24px;
-            height: 24px;
-            left: 15px;
-            top: 181px;
-        }
-        .match-video-player-2 {
-            position: absolute;
-            width: 31px;
-            height: 15px;
-            left: 52px;
-            top: 186px;
-            font-weight: bold;
-            font-size: 12px;
-            line-height: 14px;
-        }
-        .match-video-player-3 {
-            position: absolute;
-            width: 172px;
-            height: 4px;
-            left: 96px;
-            top: 192px;
-            border-radius: 104.896px;
-        }
-        .match-video-player-4 {
-            position: absolute;
-            width: 127px;
-            height: 4px;
-            border-radius: 104.896px;
-            z-index: 2;
-        }
-        .match-video-player-5 {
-            position: absolute;
-            width: 10px;
-            height: 10px;
-            left: 122px;
-            z-index: 3;
-            bottom: 2px;
-        }
-        .match-video-player-6 {
-            position: absolute;
-            width: 31px;
-            height: 15px;
-            left: 281px;
-            top: 186px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 12px;
-            line-height: 14px;
-            /* identical to box height */
-            color: #FFFFFF;
-        }
-        .match-video-player-7 {
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            left: 325px;
-            top: 184px;
-        }
-        .right-side-title {
-            position: absolute;
-            width: 582px;
-            height: 22px;
-            left: 797px;
-            top: 130px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 16px;
-            text-align: left;
-            line-height: 21px;
-            color: #00ADEE;
-        }
-        .right-side-text-one {
-            position: absolute;
-            width: 426.91px;
-            height: 37px;
-            left: 797px;
-            top: 182px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 28px;
-            text-align: left;
-            line-height: 37px;
-            color: #333333;
-        }
-        .right-side-text-two {
-            position: absolute;
-            width: 407px;
-            height: 185px;
-            left: 797px;
-            top: 246px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            text-align: left;
-            line-height: 23px;
-            /* #4F4F4F */
-            color: #4F4F4F;
-        }
-        .right-side-learn-more {
-            position: absolute;
-            width: 582px;
-            height: 22px;
-            left: 797px;
-            top: 453px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 16px;
-            text-align: left;
-            line-height: 21px;
-            color: #00ADEE;
-        }
-    }
-    
-    .content-div3 {
-        position: relative;
-        width: 360px;
-        height: 996px;
-    }
-    
-    .content-div3-left-side {
-        height: 428px;
-    }
-    
-    .div3-left-side-title {
-        top: 63px;
-        color: #00ADEE;
-        position: absolute;
-        width: 320px;
-        height: 22px;
-        left: 20px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 21px;
-        text-align: center;
-    }
-    
-    .div3-left-side-text-one {
-        position: absolute;
-        width: 320px;
-        height: 37px;
-        left: 20px;
-        top: 112px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 37px;
-        text-align: center;
-        /* #333333 */
-        color: #333333;
-    }
-    
-    .div3-left-side-text-two {
-        position: absolute;
-        width: 320px;
-        height: 208px;
-        left: 20px;
-        top: 176px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 23px;
-        text-align: center;
-    }
-    
-    .div3-left-side-learn-more {
-        position: absolute;
-        width: 320px;
-        height: 22px;
-        left: 20px;
-        top: 409px;
-        font-family: Lato;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 21px;
-        /* identical to box height */
-        text-align: center;
-        /* Brand Colour */
-        color: #00ADEE;
-    }
-    
-    .div3-right-side-smartphone-mobile {
-        position: absolute;
-        height: 464px;
-        width: 249px;
-        left: 24.73px;
-        top: 516.33px;
-    }
-    
-    .div3-right-side-smartphone-desktop {
-        display: none;
-    }
-    
-    .div3-right-side-notification {
-        position: absolute;
-        left: 34.78px;
-        top: 526.33px;
-    }
-    
-    .notification-icon {
-        position: absolute;
-        width: 95px;
-        height: 95px;
-    }
-    
-    .div3-right-side-chart {
-        position: absolute;
-        left: 230.33px;
-        top: 778.2px;
-    }
-    
-    .chart-icon {
-        position: absolute;
-        width: 95px;
-        height: 95px;
-    }
-    
-    .div3-right-side-dot {
-        display: none;
-    }
-    
-    .div3-right-side-wide {
-        display: none;
-    }
-    
-    @media screen and (min-width: 480px) {
-        .content-div3 {
-            position: relative;
-            width: 1440px;
-            height: 716px;
-            background-image: url("images/backgroundDiv3.svg");
-        }
-        .div3-left-side-title {
-            position: absolute;
-            width: 118px;
-            height: 22px;
-            left: 162px;
-            top: 217px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 21px;
-            text-align: left;
-        }
-        .div3-left-side-text-one {
-            position: absolute;
-            width: 297px;
-            height: 37px;
-            left: 162px;
-            top: 266px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 28px;
-            line-height: 37px;
-            text-align: left;
-            color: #333333;
-        }
-        .div3-left-side-text-two {
-            position: absolute;
-            width: 480px;
-            height: 139px;
-            left: 162px;
-            top: 330px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 23px;
-            text-align: left;
-            color: #4f4f4f;
-        }
-        .div3-left-side-learn-more {
-            position: absolute;
-            width: 582px;
-            height: 22px;
-            left: 162px;
-            top: 523px;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 21px;
-            text-align: left;
-            color: #00ADEE;
-        }
-        .div3-right-side-sfondo {
-            display: none;
-        }
-        .div3-right-side-smartphone-mobile {
-            display: none;
-        }
-        .div3-right-side-smartphone-desktop {
-            position: absolute;
-            width: 257px;
-            height: 513px;
-            left: 835px;
-            top: 104px;
-            display: block;
-        }
-        .div3-right-side-notification {
-            position: absolute;
-            left: 842px;
-            top: 149px;
-        }
-        .notification-icon {
-            position: absolute;
-            width: 125px;
-            height: 125px;
-        }
-        .div3-right-side-chart {
-            display: none;
-        }
-        .div3-right-side-dot {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            left: 775px;
-            top: 519px;
-            display: block;
-        }
-        .div3-right-side-wide {
-            position: absolute;
-            width: 91px;
-            height: 91px;
-            left: 1101px;
-            top: 471px;
-            display: block;
-        }
-    }
-    
-    .content-div4 {
-        position: relative;
-        width: 100%;
-        height: 1775px;
-    }
-    
-    @media screen and (min-width: 480px) {
-        .content-div4 {
-            position: relative;
-            width: 1440px;
-            height: 735px;
-            background-image: url("images/backgroundDiv4.svg");
-        }
-    }
-    
-    .content-div5 {
-        position: relative;
-        width: 100%;
-        height: 402px;
-        background-color: fuchsia;
-    }
-    
-    @media screen and (min-width: 480px) {
-        .content-div5 {
-            position: relative;
-            width: 1440px;
-            height: 431px;
-            background-color: yellow;
-        }
-    }
-    
-    .content-div6 {
-        position: relative;
-        width: 100%;
-        height: 409px;
-        background-color: aquamarine;
-    }
-    
-    @media screen and (min-width: 480px) {
-        .content-div6 {
-            position: relative;
-            width: 1440px;
-            height: 278px;
-            background-color: orange;
-        }
-    }
-    
-    .content-div7 {
-        position: relative;
-        width: 100%;
-        height: 690px;
-        background-color: brown;
-    }
-    
-    @media screen and (min-width: 480px) {
-        .content-div7 {
-            position: relative;
-            width: 1440px;
-            height: 483px;
-            background-color: orangered;
-        }
-    }
-    
-    .content-div8 {
-        position: relative;
-        width: 100%;
-        height: 210px;
-        background-color: red;
-    }
-    
-    @media screen and (min-width: 480px) {
-        .content-div8 {
-            position: relative;
-            width: 1440px;
-            height: 127px;
-            background-color: violet;
-        }
-    }
+            html,
+            body {
+                height: 100%;
+            }
+            
+            html {
+                display: table;
+                margin: auto;
+            }
+            
+            body {
+                display: table-cell;
+                vertical-align: top;
+            }
+            
+            .content-div1 {
+                position: relative;
+                width: 360px;
+                height: 525px;
+                background: #F4F6F9;
+                display: flex;
+            }
+            
+            .content-div1-left-side {
+                float: left;
+                height: 440px;
+            }
+            
+            @media screen and (max-width: 480px) {
+                .content-div1-right-side {
+                    display: none;
+                }
+            }
+            
+            .left-side-logo {
+                width: 99px;
+                height: 32px;
+                position: relative;
+                left: 131px;
+                top: -120px;
+            }
+            
+            .left-side-title {
+                position: absolute;
+                width: 320px;
+                height: 119px;
+                left: 20px;
+                top: 150px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 40px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                letter-spacing: 0.03em;
+                /* #333333 */
+                color: #333333;
+            }
+            
+            .left-side-text {
+                position: absolute;
+                width: 320px;
+                height: 70px;
+                left: 20px;
+                top: 302px;
+                font-size: 16px;
+                line-height: 23px;
+                text-align: center;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+            }
+            
+            .left-side-buttons {
+                position: absolute;
+                left: 163px;
+                top: 422px;
+                left: 16px;
+            }
+            
+            .left-side-buttons-apple {
+                position: absolute;
+                width: 145.69px;
+                height: 47px;
+            }
+            
+            .left-side-buttons-google {
+                position: absolute;
+                width: 145.69px;
+                height: 47px;
+                left: 174.3px;
+            }
+            
+            svg.svg {
+                position: absolute;
+                width: 145.69px;
+                height: 47px;
+            }
+            
+            @media screen and (min-width: 480px) {
+                .content-div1 {
+                    position: relative;
+                    width: 1440px;
+                    height: 665px;
+                }
+                .content-div1-left-side {
+                    float: left;
+                    height: 440px;
+                }
+                .content-div1-right-side {
+                    position: absolute;
+                    width: 50%;
+                    left: 447px;
+                    top: 0;
+                }
+                .left-side-logo {
+                    position: absolute;
+                    width: 99px;
+                    height: 32px;
+                    top: -91px;
+                    left: 163px;
+                }
+                .left-side-title {
+                    position: absolute;
+                    width: 546px;
+                    height: 96px;
+                    left: 163px;
+                    top: 226px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 36px;
+                    line-height: 48px;
+                    display: flex;
+                    align-items: flex-end;
+                    letter-spacing: 0.03em;
+                    /* #333333 */
+                    color: #333333;
+                    text-align: left;
+                }
+                .left-side-text {
+                    position: absolute;
+                    width: 453px;
+                    height: 52px;
+                    left: 163px;
+                    top: 352px;
+                    text-align: left;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #4F4F4F;
+                }
+                .left-side-buttons {
+                    position: relative;
+                    width: 348px;
+                    height: 47px;
+                    left: 163px;
+                    top: 452px;
+                }
+                .left-side-buttons-apple {
+                    position: absolute;
+                    width: 156.05px;
+                    height: 47px;
+                }
+                .left-side-buttons-google {
+                    position: absolute;
+                    width: 156.05px;
+                    height: 47px;
+                    left: 191.95px;
+                }
+                svg.svg {
+                    position: absolute;
+                    width: 156.05px;
+                    height: 47px;
+                }
+            }
+            
+            .content-div2 {
+                position: relative;
+                width: 360px;
+                height: 854px;
+                background-color: #ffffff;
+            }
+            
+            .content-div2-left-side-sfondo {
+                display: none;
+            }
+            
+            .content-div2-left-side-sfondo-mobile {
+                background-image: url("images/bottomLeftDiv2mobile.png");
+                position: relative;
+                top: 468px;
+            }
+            
+            .content-div2-left-side-match {
+                position: absolute;
+                width: 247.21px;
+                height: 149.58px;
+                left: 20px;
+                top: 538px;
+                background: #FFFFFF;
+                border-radius: 2.74531px;
+                z-index: 2;
+            }
+            
+            .match-informations-date {
+                position: absolute;
+                width: 69.47px;
+                height: 15.82px;
+                left: 10.81px;
+                top: 18.7px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 11.5188px;
+                line-height: 15px;
+                color: #4F4F4F;
+            }
+            
+            .match-informations-players {
+                position: absolute;
+                width: 52.61px;
+                height: 34.52px;
+                left: 10.81px;
+                top: 43.15px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12.3539px;
+                line-height: 16px;
+                color: #000000;
+            }
+            
+            .match-informations-category {
+                position: absolute;
+                width: 85.05px;
+                height: 17.26px;
+                left: 10.81px;
+                top: 87.01px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10.9812px;
+                line-height: 14px;
+                color: #000000;
+            }
+            
+            .match-notifications-text {
+                position: absolute;
+                width: 172.25px;
+                height: 17.26px;
+                left: 10.81px;
+                top: 125.13px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12.9587px;
+                line-height: 17px;
+                /* identical to box height */
+                color: #4F4F4F;
+                z-index: 2;
+            }
+            
+            .match-team-1 {
+                position: absolute;
+                width: 48.76px;
+                height: 57.53px;
+                left: 139.1px;
+                top: 31.64px;
+            }
+            
+            .match-team-2 {
+                position: absolute;
+                width: 57.66px;
+                height: 57.53px;
+                left: 179.46px;
+                top: 31.64px;
+            }
+            
+            .match-notifications {
+                position: absolute;
+                width: 247.21px;
+                height: 33.8px;
+                top: 115.78px;
+                background: #EEEEEE;
+                border-radius: 0px 0px 2.74531px 2.74531px;
+            }
+            
+            .match-notifications-dot {
+                position: absolute;
+                width: 14.41px;
+                height: 14.38px;
+                left: 205.13px;
+                top: 10.07px;
+            }
+            
+            .match-notifications-bar {
+                position: absolute;
+                width: 18.74px;
+                height: 8.63px;
+                left: 210.45px;
+                top: 12.94px;
+                background: #979797;
+                border-radius: 71.9927px;
+            }
+            
+            .content-div2-left-side-match-video {
+                position: absolute;
+                width: 247.21px;
+                height: 149.73px;
+                left: 92.79px;
+                top: 666.27px;
+                background-image: url("images/sfondoYTDiv2.png");
+                border-radius: 4px;
+            }
+            
+            .match-video-player {
+                position: absolute;
+                width: 247.21px;
+                height: 33.8px;
+                top: 115.93px;
+                opacity: 0.6;
+                background: #000000;
+                border-radius: 0px 0px 2.74531px 2.74531px;
+            }
+            
+            .match-video-player-1 {
+                position: absolute;
+                width: 16.48px;
+                height: 16.46px;
+                left: 10.3px;
+                top: 119.84px;
+            }
+            
+            .match-video-player-2 {
+                position: absolute;
+                width: 21.29px;
+                height: 10.29px;
+                left: 35.71px;
+                top: 127.59px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 8.23592px;
+                line-height: 10px;
+                color: #FFFFFF;
+            }
+            
+            .match-video-player-3 {
+                position: absolute;
+                width: 118.11px;
+                height: 2.74px;
+                left: 65.92px;
+                top: 131.65px;
+                /* #BDBDBD */
+                background: #BDBDBD;
+                border-radius: 71.9927px;
+            }
+            
+            .match-video-player-4 {
+                position: absolute;
+                width: 87.21px;
+                height: 2.74px;
+                /* Brand Colour */
+                background: #00ADEE;
+                border-radius: 71.9927px;
+                z-index: 2;
+            }
+            
+            .match-video-player-5 {
+                position: absolute;
+                width: 6.87px;
+                height: 6.86px;
+                left: 83.09px;
+                z-index: 3;
+                bottom: 5px;
+            }
+            
+            .match-video-player-6 {
+                position: absolute;
+                width: 21.29px;
+                height: 10.29px;
+                left: 192.965px;
+                top: 127.65px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 8.23592px;
+                line-height: 10px;
+                color: #FFFFFF;
+            }
+            
+            .match-video-player-7 {
+                position: absolute;
+                width: 13.73px;
+                height: 13.72px;
+                left: 223.17px;
+                top: 121.84px;
+            }
+            
+            .right-side-title {
+                position: absolute;
+                width: 320px;
+                height: 22px;
+                left: 20px;
+                top: 54px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 21px;
+                /* identical to box height */
+                text-align: center;
+                /* Brand Colour */
+                color: #00ADEE;
+            }
+            
+            .right-side-text-one {
+                position: absolute;
+                width: 320px;
+                height: 74px;
+                left: 20px;
+                top: 103px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 37px;
+                text-align: center;
+                /* #333333 */
+                color: #333333;
+            }
+            
+            .right-side-text-two {
+                position: absolute;
+                width: 320px;
+                height: 208px;
+                left: 20px;
+                top: 197px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 23px;
+                text-align: center;
+            }
+            
+            .right-side-learn-more {
+                position: absolute;
+                width: 320px;
+                height: 22px;
+                left: 20px;
+                top: 424px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 21px;
+                /* identical to box height */
+                text-align: center;
+                /* Brand Colour */
+                color: #00ADEE;
+            }
+            
+            @media screen and (min-width: 480px) {
+                .content-div2 {
+                    position: relative;
+                    width: 1440px;
+                    height: 592px;
+                }
+                .content-div2-left-side-sfondo {
+                    position: absolute;
+                    width: 805px;
+                    height: 592px;
+                    left: 0px;
+                    background-image: url("images/leftSideDiv2.png");
+                    display: block;
+                }
+                .content-div2-left-side-sfondo-mobile {
+                    display: none;
+                }
+                .content-div2-left-side-match {
+                    position: absolute;
+                    width: 360px;
+                    height: 218.06px;
+                    left: 163px;
+                    top: 109px;
+                }
+                .match-informations-date {
+                    position: absolute;
+                    width: 101.71px;
+                    height: 23.06px;
+                    left: 15.74px;
+                    top: 27.26px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16.7833px;
+                    line-height: 22px;
+                    color: #4F4F4F;
+                }
+                .match-informations-players {
+                    position: absolute;
+                    width: 76.62px;
+                    height: 50.32px;
+                    left: 15.74px;
+                    top: 62.9px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: #000000;
+                }
+                .match-informations-category {
+                    position: absolute;
+                    width: 123.85px;
+                    height: 25.16px;
+                    left: 15.74px;
+                    top: 126.85px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #000000;
+                }
+                .match-notifications-text {
+                    position: absolute;
+                    width: 250.85px;
+                    height: 25.16px;
+                    left: 15.74px;
+                    top: 179.41px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18.8812px;
+                    line-height: 25px;
+                    /* identical to box height */
+                    color: #4F4F4F;
+                    z-index: 2;
+                }
+                .match-team-1 {
+                    position: absolute;
+                    width: 71px;
+                    height: 83.87px;
+                    left: 202.57px;
+                    top: 46.13px;
+                }
+                .match-team-2 {
+                    position: absolute;
+                    width: 83.97px;
+                    height: 83.87px;
+                    left: 261.34px;
+                    top: 46.13px;
+                }
+                .match-notifications {
+                    position: absolute;
+                    width: 360px;
+                    height: 49.27px;
+                    top: 168.78px;
+                    background: #EEEEEE;
+                    border-radius: 0px 0px 2.74531px 2.74531px;
+                }
+                .match-notifications-dot {
+                    position: absolute;
+                    width: 20.99px;
+                    height: 20.97px;
+                    left: 300.18px;
+                    top: 15.68px;
+                }
+                .match-notifications-bar {
+                    position: absolute;
+                    width: 27.29px;
+                    height: 12.58px;
+                    left: 306.47px;
+                    top: 18.87px;
+                    background: #979797;
+                    border-radius: 71.9927px;
+                }
+                .content-div2-left-side-match-video {
+                    position: absolute;
+                    width: 360px;
+                    height: 218.27px;
+                    left: 269px;
+                    top: 296px;
+                }
+                .match-video-player {
+                    position: absolute;
+                    width: 360px;
+                    height: 49.27px;
+                    top: 169px;
+                    background: #000000;
+                    opacity: 0.6;
+                    border-radius: 0px 0px 4px 4px;
+                }
+                .match-video-player-1 {
+                    position: absolute;
+                    width: 24px;
+                    height: 24px;
+                    left: 15px;
+                    top: 181px;
+                }
+                .match-video-player-2 {
+                    position: absolute;
+                    width: 31px;
+                    height: 15px;
+                    left: 52px;
+                    top: 186px;
+                    font-weight: bold;
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+                .match-video-player-3 {
+                    position: absolute;
+                    width: 172px;
+                    height: 4px;
+                    left: 96px;
+                    top: 192px;
+                    border-radius: 104.896px;
+                }
+                .match-video-player-4 {
+                    position: absolute;
+                    width: 127px;
+                    height: 4px;
+                    border-radius: 104.896px;
+                    z-index: 2;
+                }
+                .match-video-player-5 {
+                    position: absolute;
+                    width: 10px;
+                    height: 10px;
+                    left: 122px;
+                    z-index: 3;
+                    bottom: 2px;
+                }
+                .match-video-player-6 {
+                    position: absolute;
+                    width: 31px;
+                    height: 15px;
+                    left: 281px;
+                    top: 186px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 12px;
+                    line-height: 14px;
+                    /* identical to box height */
+                    color: #FFFFFF;
+                }
+                .match-video-player-7 {
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    left: 325px;
+                    top: 184px;
+                }
+                .right-side-title {
+                    position: absolute;
+                    width: 582px;
+                    height: 22px;
+                    left: 797px;
+                    top: 130px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    text-align: left;
+                    line-height: 21px;
+                    color: #00ADEE;
+                }
+                .right-side-text-one {
+                    position: absolute;
+                    width: 426.91px;
+                    height: 37px;
+                    left: 797px;
+                    top: 182px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 28px;
+                    text-align: left;
+                    line-height: 37px;
+                    color: #333333;
+                }
+                .right-side-text-two {
+                    position: absolute;
+                    width: 407px;
+                    height: 185px;
+                    left: 797px;
+                    top: 246px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    text-align: left;
+                    line-height: 23px;
+                    /* #4F4F4F */
+                    color: #4F4F4F;
+                }
+                .right-side-learn-more {
+                    position: absolute;
+                    width: 582px;
+                    height: 22px;
+                    left: 797px;
+                    top: 453px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    text-align: left;
+                    line-height: 21px;
+                    color: #00ADEE;
+                }
+            }
+            
+            .content-div3 {
+                position: relative;
+                width: 360px;
+                height: 996px;
+            }
+            
+            .content-div3-left-side {
+                height: 428px;
+            }
+            
+            .div3-left-side-title {
+                top: 63px;
+                color: #00ADEE;
+                position: absolute;
+                width: 320px;
+                height: 22px;
+                left: 20px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 21px;
+                text-align: center;
+            }
+            
+            .div3-left-side-text-one {
+                position: absolute;
+                width: 320px;
+                height: 37px;
+                left: 20px;
+                top: 112px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 37px;
+                text-align: center;
+                /* #333333 */
+                color: #333333;
+            }
+            
+            .div3-left-side-text-two {
+                position: absolute;
+                width: 320px;
+                height: 208px;
+                left: 20px;
+                top: 176px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 23px;
+                text-align: center;
+            }
+            
+            .div3-left-side-learn-more {
+                position: absolute;
+                width: 320px;
+                height: 22px;
+                left: 20px;
+                top: 409px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 21px;
+                /* identical to box height */
+                text-align: center;
+                /* Brand Colour */
+                color: #00ADEE;
+            }
+            
+            .div3-right-side-smartphone-mobile {
+                position: absolute;
+                height: 464px;
+                width: 249px;
+                left: 24.73px;
+                top: 516.33px;
+            }
+            
+            .div3-right-side-smartphone-desktop {
+                display: none;
+            }
+            
+            .div3-right-side-notification {
+                position: absolute;
+                left: 34.78px;
+                top: 526.33px;
+            }
+            
+            .notification-icon {
+                position: absolute;
+                width: 95px;
+                height: 95px;
+            }
+            
+            .div3-right-side-chart {
+                position: absolute;
+                left: 230.33px;
+                top: 778.2px;
+            }
+            
+            .chart-icon {
+                position: absolute;
+                width: 95px;
+                height: 95px;
+            }
+            
+            .div3-right-side-dot {
+                display: none;
+            }
+            
+            .div3-right-side-wide {
+                display: none;
+            }
+            
+            @media screen and (min-width: 480px) {
+                .content-div3 {
+                    position: relative;
+                    width: 1440px;
+                    height: 716px;
+                    background-image: url("images/backgroundDiv3.svg");
+                }
+                .div3-left-side-title {
+                    position: absolute;
+                    width: 118px;
+                    height: 22px;
+                    left: 162px;
+                    top: 217px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 21px;
+                    text-align: left;
+                }
+                .div3-left-side-text-one {
+                    position: absolute;
+                    width: 297px;
+                    height: 37px;
+                    left: 162px;
+                    top: 266px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 28px;
+                    line-height: 37px;
+                    text-align: left;
+                    color: #333333;
+                }
+                .div3-left-side-text-two {
+                    position: absolute;
+                    width: 480px;
+                    height: 139px;
+                    left: 162px;
+                    top: 330px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 23px;
+                    text-align: left;
+                    color: #4f4f4f;
+                }
+                .div3-left-side-learn-more {
+                    position: absolute;
+                    width: 582px;
+                    height: 22px;
+                    left: 162px;
+                    top: 523px;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 21px;
+                    text-align: left;
+                    color: #00ADEE;
+                }
+                .div3-right-side-sfondo {
+                    display: none;
+                }
+                .div3-right-side-smartphone-mobile {
+                    display: none;
+                }
+                .div3-right-side-smartphone-desktop {
+                    position: absolute;
+                    width: 257px;
+                    height: 513px;
+                    left: 835px;
+                    top: 104px;
+                    display: block;
+                }
+                .div3-right-side-notification {
+                    position: absolute;
+                    left: 842px;
+                    top: 149px;
+                }
+                .notification-icon {
+                    position: absolute;
+                    width: 125px;
+                    height: 125px;
+                }
+                .div3-right-side-chart {
+                    display: none;
+                }
+                .div3-right-side-dot {
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    left: 775px;
+                    top: 519px;
+                    display: block;
+                }
+                .div3-right-side-wide {
+                    position: absolute;
+                    width: 91px;
+                    height: 91px;
+                    left: 1101px;
+                    top: 471px;
+                    display: block;
+                }
+            }
+            
+            .content-div4 {
+                position: relative;
+                width: 100%;
+                height: 1775px;
+            }
+            
+            .content-div4-title {
+                position: absolute;
+                width: 318px;
+                height: 74px;
+                left: 21px;
+                top: 74px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 37px;
+                text-align: center;
+                color: #333333;
+            }
+            
+            .box-text {
+                position: absolute;
+                top: 51px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 23px;
+                text-align: center;
+                color: #4F4F4F;
+            }
+            
+            .box-icon-mobile {
+                position: absolute;
+                left: 135px;
+            }
+            
+            .box-icon-desktop {
+                display: none;
+            }
+            
+            .div4-box1 {
+                position: absolute;
+                width: 311px;
+                height: 100px;
+                top: 200px;
+                left: 25px;
+            }
+            
+            .div4-box2 {
+                position: absolute;
+                width: 311px;
+                height: 144px;
+                top: 348px;
+                left: 25px;
+            }
+            
+            .div4-box3 {
+                position: absolute;
+                width: 311px;
+                height: 144px;
+                top: 541px;
+                left: 25px;
+            }
+            
+            .div4-box4 {
+                position: absolute;
+                width: 311px;
+                height: 143px;
+                top: 703px;
+                left: 25px;
+            }
+            
+            .div4-box5 {
+                position: absolute;
+                width: 311px;
+                height: 166px;
+                top: 896px;
+                left: 25px;
+            }
+            
+            .div4-box6 {
+                position: absolute;
+                width: 311px;
+                height: 120px;
+                top: 1112px;
+                left: 25px;
+            }
+            
+            .div4-box7 {
+                position: absolute;
+                width: 311px;
+                height: 120px;
+                top: 1281px;
+                left: 25px;
+            }
+            
+            .div4-box8 {
+                position: absolute;
+                width: 311px;
+                height: 93px;
+                top: 1447px;
+                left: 25px;
+            }
+            
+            .div4-box9 {
+                position: absolute;
+                width: 311px;
+                height: 116px;
+                top: 1590px;
+                left: 25px;
+            }
+            
+            @media screen and (min-width: 480px) {
+                .content-div4 {
+                    position: relative;
+                    width: 1440px;
+                    height: 735px;
+                    background-image: url("images/backgroundDiv4.svg");
+                }
+                .content-div4-title {
+                    position: absolute;
+                    width: 529px;
+                    height: 37px;
+                    left: 466px;
+                    top: 76px;
+                    color: #FFFFFF;
+                }
+                .box-icon-mobile {
+                    display: none;
+                }
+                .box-text {
+                    position: absolute;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 23px;
+                    text-align: left;
+                    color: #FFFFFF;
+                }
+                .box-icon-desktop {
+                    position: absolute;
+                    display: block;
+                }
+                .div4-box1 {
+                    position: absolute;
+                    width: 311px;
+                    height: 98px;
+                    top: 167px;
+                    left: 164px;
+                }
+                .div4-box2 {
+                    position: absolute;
+                    width: 311px;
+                    height: 144px;
+                    top: 167px;
+                    left: 565px;
+                }
+                .div4-box3 {
+                    position: absolute;
+                    width: 311px;
+                    height: 144px;
+                    top: 167px;
+                    left: 963px;
+                }
+                .div4-box4 {
+                    position: absolute;
+                    width: 311px;
+                    height: 143px;
+                    top: 356px;
+                    left: 164px;
+                }
+                .div4-box5 {
+                    position: absolute;
+                    width: 311px;
+                    height: 166px;
+                    top: 356px;
+                    left: 565px;
+                }
+                .div4-box6 {
+                    position: absolute;
+                    width: 311px;
+                    height: 120px;
+                    top: 356px;
+                    left: 963px;
+                }
+                .div4-box7 {
+                    position: absolute;
+                    width: 311px;
+                    height: 120px;
+                    top: 553px;
+                    left: 164px;
+                }
+                .div4-box8 {
+                    position: absolute;
+                    width: 311px;
+                    height: 93px;
+                    top: 553px;
+                    left: 565px;
+                }
+                .div4-box9 {
+                    position: absolute;
+                    width: 311px;
+                    height: 116px;
+                    top: 553px;
+                    left: 963px;
+                }
+            }
+            
+            .content-div5 {
+                position: relative;
+                width: 100%;
+                height: 402px;
+            }
+            
+            @media screen and (min-width: 480px) {
+                .content-div5 {
+                    position: relative;
+                    width: 1440px;
+                    height: 431px;
+                }
+            }
+            
+            .content-div6 {
+                position: relative;
+                width: 100%;
+                height: 409px;
+                background-color: #FAFAFA;
+                ;
+            }
+            
+            @media screen and (min-width: 480px) {
+                .content-div6 {
+                    position: relative;
+                    width: 1440px;
+                    height: 278px;
+                    background-color: #FAFAFA;
+                    ;
+                }
+            }
+            
+            .content-div7 {
+                position: relative;
+                width: 100%;
+                height: 690px;
+            }
+            
+            @media screen and (min-width: 480px) {
+                .content-div7 {
+                    position: relative;
+                    width: 1440px;
+                    height: 483px;
+                }
+            }
+            
+            .content-div8 {
+                position: relative;
+                width: 100%;
+                height: 210px;
+                background-color: #00ADEE;
+            }
+            
+            @media screen and (min-width: 480px) {
+                .content-div8 {
+                    position: relative;
+                    width: 1440px;
+                    height: 127px;
+                    background-color: #00ADEE;
+                }
+            }
