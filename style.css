@@ -12,21 +12,7 @@
                 display: table-cell;
                 vertical-align: top;
             }
-            
-            @media screen and (max-width: 460px) {
-                html,
-                body {
-                    height: 100%;
-                }
-                html {
-                    display: table;
-                    margin: auto;
-                }
-                body {
-                    display: table-cell;
-                    vertical-align: top;
-                }
-            }
+            /*DIV 1*/
             
             .content-div1 {
                 position: relative;
@@ -70,7 +56,6 @@
                 align-items: flex-end;
                 text-align: center;
                 letter-spacing: 0.03em;
-                /* #333333 */
                 color: #333333;
             }
             
@@ -194,6 +179,8 @@
                     height: 47px;
                 }
             }
+            /*DIV 1*/
+            /*DIV 2*/
             
             .content-div2 {
                 position: relative;
@@ -733,6 +720,8 @@
                     color: #00ADEE;
                 }
             }
+            /*DIV 2*/
+            /*DIV 3*/
             
             .content-div3 {
                 position: relative;
@@ -956,6 +945,8 @@
                     display: block;
                 }
             }
+            /*DIV 3*/
+            /*DIV 4*/
             
             .content-div4 {
                 position: relative;
@@ -1169,6 +1160,8 @@
                     left: 963px;
                 }
             }
+            /*DIV 4*/
+            /*DIV 5*/
             
             .content-div5 {
                 position: relative;
@@ -1409,6 +1402,8 @@
                     top: 376px;
                 }
             }
+            /*DIV 5*/
+            /*DIV 6*/
             
             .content-div6 {
                 position: relative;
@@ -1545,6 +1540,8 @@
                     top: 164px
                 }
             }
+            /*DIV 6*/
+            /*DIV 7*/
             
             .content-div7 {
                 position: relative;
@@ -1659,6 +1656,8 @@
                     left: 191.90px;
                 }
             }
+            /*DIV 7*/
+            /*DIV 8*/
             
             .content-div8-footer {
                 position: relative;
@@ -1812,3 +1811,4 @@
                     left: 1253px;
                 }
             }
+            /*DIV 8*/
