@@ -29,7 +29,7 @@ body {
     height: 440px;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 360px) {
     .content-div1-right-side {
         display: none;
     }
@@ -101,7 +101,7 @@ svg.svg {
     height: 47px;
 }
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 360px) {
     .content-div1 {
         position: relative;
         width: 1440px;
@@ -475,7 +475,7 @@ svg.svg {
     color: #00ADEE;
 }
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 360px) {
     .content-div2 {
         position: relative;
         width: 1440px;
@@ -849,7 +849,7 @@ svg.svg {
     display: none;
 }
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 360px) {
     .content-div3 {
         position: relative;
         width: 1440px;
@@ -1078,7 +1078,7 @@ svg.svg {
     left: 25px;
 }
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 360px) {
     .content-div4 {
         position: relative;
         width: 1440px;
@@ -1281,7 +1281,7 @@ svg.svg {
     top: 330px;
 }
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 360px) {
     .content-div5 {
         position: relative;
         width: 1440px;
@@ -1503,7 +1503,7 @@ svg.svg {
     top: 304px
 }
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 360px) {
     .content-div6 {
         position: relative;
         width: 1440px;
@@ -1632,7 +1632,7 @@ svg.svg {
     top: 326px;
 }
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 360px) {
     .content-div7 {
         position: relative;
         width: 1440px;
@@ -1774,7 +1774,7 @@ svg.svg {
     left: 105px;
 }
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 360px) {
     .content-div8-footer {
         position: relative;
         width: 1440px;
